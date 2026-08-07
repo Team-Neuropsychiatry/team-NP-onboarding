@@ -14,7 +14,7 @@ This page gives new team members (bachelor and master students) an overview of t
 **A note on the guides.** The linked guides are hosted on SharePoint and only open with an Amsterdam UMC account. You will get this account on your first day, so a link that doesn't open yet is expected before then.
 
 {: .notice--info}
-**A note on running analyses on the server.** All analysis types below can be run either through an interactive session or as a SLURM batch job on Luna. See the [Server](/resources-server/) page for login instructions, SLURM basics, and example scripts. This page focuses on what each analysis does and when to use it.
+**A note on running analyses on the server.** All analysis types below can be run either through an interactive session or as a SLURM batch job on Luna. See the [Server](./resources-server.md) page for login instructions, SLURM basics, and example scripts. This page focuses on what each analysis does and when to use it.
 
 Each section below follows the same structure so it stays easy to scan.
 
