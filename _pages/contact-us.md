@@ -1,7 +1,7 @@
 ---
 title: "Contact Us"
 layout: single
-permalink: /contact/
+permalink: /contact-us/
 ---
 
 Interested in doing an internship with Team Neuropsychiatry? Fill in the form below and we'll get back to you as soon as possible.
