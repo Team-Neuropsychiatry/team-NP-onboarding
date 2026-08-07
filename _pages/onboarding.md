@@ -27,7 +27,14 @@ Welcome to the Onboarding page. This page outlines all the steps necessary to en
 1. A supervisors guide> how to prepare for a soft landing
 2. A guide for new employees> everything to do in your first weeks
 
-<p idtable of contents
+<a href="table of contents"> Table of Contents </a>
+
+
+
+
+
+<p id="table of contents"> Table of Contents.</p>
+
 > Access to buildings and systems
 
 
