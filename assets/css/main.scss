@@ -7,3 +7,13 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Make navigation items smaller to fit more */
+.greedy-nav a {
+  padding: 0.4rem 0.5rem !important;
+  font-size: 0.8rem !important;
+}
+
+.greedy-nav .visible-links a {
+  padding: 0.4rem 0.5rem !important;
+}
