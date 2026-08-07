@@ -8,4 +8,4 @@ layout: single
 
 Add content about using AI here...
 
-[Back to Resources](/resources/)
+[Back to Resources](./resources.md)
