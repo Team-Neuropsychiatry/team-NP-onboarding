@@ -4,13 +4,13 @@ main:
     url: /about/
   - title: "Onboarding"
     url: /onboarding/
-  - title: "Publications"
-    url: /publications/
   - title: "Resources"
     url: /resources/
   - title: "Who to ask?"
     url: /quick-reference/
   - title: "News"
     url: /news/
+  - title: "Publications"
+    url: /publications/
   - title: "Contact Us"
     url: /contact-us/
