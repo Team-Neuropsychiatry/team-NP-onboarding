@@ -8,18 +8,18 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Make navigation items smaller, bolder, and closer together */
+/* Make navigation items bigger, bolder, and closer together */
 .masthead__menu-item {
   padding: 0.2rem 0.2rem !important;
   margin: 0 !important;
-  font-size: 0.75rem !important;
+  font-size: 0.95rem !important;
   font-weight: bold !important;
 }
 
 .greedy-nav a {
   padding: 0.2rem 0.2rem !important;
   margin: 0 !important;
-  font-size: 0.75rem !important;
+  font-size: 0.95rem !important;
   font-weight: bold !important;
 }
 
@@ -30,7 +30,7 @@ search: false
 .visible-links a {
   padding: 0.2rem 0.2rem !important;
   margin: 0 !important;
-  font-size: 0.75rem !important;
+  font-size: 0.95rem !important;
   font-weight: bold !important;
 }
 
