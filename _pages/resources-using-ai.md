@@ -30,6 +30,14 @@ This might even be the most important one. **Always** handle personal, confident
 
 Before using AI-assisted/-generated text, code and analyses, take time to review the outputs critically. Review the outputs with literature, established methods, experts on the subject (e.g. your supervisor, a statistician, etc.), and your own expertise/common sense. 
 
+**3. Ownership & Authorship**
+
+Remind: **you** are responsible for **any** content created by yourself, with or without support from AI tools. Making you also accountable for this content (thesis, code, figures, etc.). AI tools should not be listed as co-authors. Additionally, all AI use must respect copyright and licensing requirements.
+
+**4. Efficiency & Professional development**
+
+AI can absolutely be helpful in making everyday-tasks easier, and it can support learning. However, keep develping your own writing, research/analyzing methods, and critical thinking skills. Don't rely on any AI tool for this, make sure it will **support** you and not **overtake** your skills. 
+
 
 ## Don'ts: Prohibited or High-Risk uses
 
