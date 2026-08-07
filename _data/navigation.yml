@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Onboarding"
     url: /onboarding/
+  - title: "Publications"
+    url: /publications/
   - title: "Resources"
     url: /resources/
   - title: "Who to ask?"
