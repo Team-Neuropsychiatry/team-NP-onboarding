@@ -2,9 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 search: false
 ---
-
 @charset "utf-8";
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -36,4 +34,31 @@ search: false
 
 .greedy-nav ul {
   gap: 0.1rem !important;
+}
+
+/* Make all pages use full width instead of narrow container */
+.page {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.archive {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.single {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Adjust the inner content padding for readability */
+.page__content {
+  max-width: 100% !important;
+}
+
+/* Add some padding on the sides so text doesn't go edge-to-edge */
+.page__inner-wrap {
+  max-width: 100% !important;
+  padding: 0 2rem;
 }
