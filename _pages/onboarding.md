@@ -2,6 +2,16 @@
 permalink: /onboarding/
 title: "General onboarding"
 layout: single
+toc: true
+toc_sticky: true
+---
+
+## Welcome to the Onboarding page. 
+This page outlines all the steps necessary to ensure effective onboarding for new employees and students in the team. It is divided in two subsections:
+
+1. A supervisors guide> how to prepare for a soft landing
+2. A guide for new employees> everything to do in your first weeks
+
 ---
 
 Welcome to the Onboarding page. This page outlines all the steps necessary to ensure effective onboarding for new employees and students in the team. It is divided in two subsections:
