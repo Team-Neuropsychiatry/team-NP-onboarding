@@ -19,11 +19,9 @@ Welcome to the Onboarding page. This page outlines all the steps necessary to en
 ## Access to buildings and systems {#access}
 
 - Access to Building and Computers
-  - Obtain building card access. You will receive instructions via email from the ANW secretariat. Multi-step process.
-  - Obtain Amsterdam UMC Account (requires non-expired government identification).
-  - Download MobaXTerm
-  - Obtain AMC network access (contact IT)
-  - Obtain Luna server account. This is dependent on activation of the AMC network access; see above.
+  - Obtain Amsterdam UMC Account: your supervisor will ask you to fill out a form and share a copy of your ID/passport. 
+  - Obtain building card access: when your Amsterdam UMC account is ready, you will receive instructions by email from the ANW secretariat. 
+  - Obtain a Helios server account: read more about that [here](./resources-server.md)
 
 ## Training {#training}
 
