@@ -1,0 +1,12 @@
+# List every lab member whose publications should appear on the site.
+# "name" is used as a fallback display label; ORCID's own author list on
+# each work is what actually gets shown in the citation.
+# Find ORCID iDs at https://orcid.org (format: 0000-0000-0000-0000)
+
+authors:
+  - name: "Chris Vriend"
+    orcid: "0000-0003-3111-1304"
+  - name: "Emile d'Angremont"
+    orcid: "0000-0002-5468-8811"
+  # - name: "Add more lab members here"
+  #   orcid: "0000-0000-0000-0000"
