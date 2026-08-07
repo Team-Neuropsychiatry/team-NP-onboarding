@@ -27,6 +27,8 @@ Team Neuropsychiatry functions at the intersection of Psychiatry, Anatomy & Neur
 <p style="margin-top: 10px; font-weight: 600;">TETRO</p>
 </div>
 <div style="text-align: center;">
+    <a href="https://hersenstimulatie-longcovid.nl" target="_blank">
+  
 <img src="https://github.com/Team-Neuropsychiatry/team-NP-onboarding/blob/4ecd73a26386447c04345b6f7930d19fe64dc821/assets/logos/malibu_logo.png" alt="MALIBU" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
 <p style="margin-top: 10px; font-weight: 600;">MALIBU</p>
 </div>
