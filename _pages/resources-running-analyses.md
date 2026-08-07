@@ -154,4 +154,4 @@ When you have a clear anatomical hypothesis about specific regions, or want to c
 
 If you set up or run a new type of analysis, please add it here in the same format (what it is, when to use it, inputs and outputs, guide link, documentation). Replace the placeholder comments above with actual screenshots or short example files, and swap in the real SharePoint links once available, so the page stays useful for the next student.
 
-[Back to Resources](/resources/)
+[Back to Resources](./resources.md)
