@@ -8,3 +8,5 @@ main:
     url: /resources/
   - title: "Who to ask?"
     url: /quick-reference/
+  - title: "Contact Us"
+    url: /contact/
