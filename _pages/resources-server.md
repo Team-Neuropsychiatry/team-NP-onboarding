@@ -8,4 +8,4 @@ layout: single
 
 Add content about the server here...
 
-[Back to Resources](_pages/resources/)
+[Back to Resources](/resources/)
