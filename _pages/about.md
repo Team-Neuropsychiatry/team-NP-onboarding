@@ -17,7 +17,7 @@ short description about team
     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin: 30px 0;">
 <div style="text-align: center;">
 
-<img src="{{ site.baseurl }}/assets/logos/CovAID.png" alt="Partner 1" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; border: 1px solid #eee; border-radius: 8px; padding: 10px;">
+<img src="https://github.com/Team-Neuropsychiatry/team-NP-onboarding/blob/master/assets/logos/CovAID.png" alt="Partner 1" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; border: 1px solid #eee; border-radius: 8px; padding: 10px;">
 </a>
 <p style="margin-top: 10px; font-weight: 600;">Partner One</p>
 </div>
