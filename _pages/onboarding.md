@@ -1,6 +1,6 @@
 ---
-permalink: /resources-running-analyses/
-title: "Running analyses"
+permalink: /onboarding/
+title: "General onboarding"
 layout: single
 toc: true
 toc_sticky: true
