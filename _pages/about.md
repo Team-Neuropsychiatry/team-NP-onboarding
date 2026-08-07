@@ -29,8 +29,48 @@ layout: single
 <img src="{{ site.baseurl }}/assets/logos/CovAID.png" alt="CovAID" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
 <p style="margin-top: 10px; font-weight: 600;">CovAID</p>
 </div>
+
+<div style="text-align: center;">
+<a href="https://enigma-infra.github.io/ENIGMA-PD/" target="_blank">
+<img src="{{ site.baseurl }}/assets/logos/ENIGMA.png" alt="PROJECT_NAME" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+<p style="margin-top: 10px; font-weight: 600;">ENIGMA-PD</p>
+</div>
+
+<div style="text-align: center;">
+<a href="https://enigma-infra.github.io/ENIGMA-Tremor/" target="_blank">
+<img src="{{ site.baseurl }}/assets/logos/ENIGMA.png" alt="PROJECT_NAME" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+<p style="margin-top: 10px; font-weight: 600;">ENIGMA-Tremor</p>
+</div>
+
+<div style="text-align: center;">
+<div style="width: 150px; height: 150px; background: #fff; border: 1px solid #eee; border-radius: 8px; margin: 0 auto;"></div>
+<p style="margin-top: 10px; font-weight: 600;">D-DOTT</p>
+</div>
+
+<div style="text-align: center;">
+<div style="width: 150px; height: 150px; background: #fff; border: 1px solid #eee; border-radius: 8px; margin: 0 auto;"></div>
+<p style="margin-top: 10px; font-weight: 600;">SLEEP DEEP</p>
+</div>
+
+<div style="text-align: center;">
+<div style="width: 150px; height: 150px; background: #fff; border: 1px solid #eee; border-radius: 8px; margin: 0 auto;"></div>
+<p style="margin-top: 10px; font-weight: 600;">T-BIDE</p>
+</div>
+
+<div style="text-align: center;">
+<div style="width: 150px; height: 150px; background: #fff; border: 1px solid #eee; border-radius: 8px; margin: 0 auto;"></div>
+<p style="margin-top: 10px; font-weight: 600;">TMSLA</p>
+</div>
+
+
+<div style="text-align: center;">
+<div style="width: 150px; height: 150px; background: #fff; border: 1px solid #eee; border-radius: 8px; margin: 0 auto;"></div>
+<p style="margin-top: 10px; font-weight: 600;">NESCIO-PD</p>
+</div>
+
 </div>
 </div>
+  
 <!--
 To add a new project, copy and paste this template into the grid above:
 <div style="text-align: center;">
