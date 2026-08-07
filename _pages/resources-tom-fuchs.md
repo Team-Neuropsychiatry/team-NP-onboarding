@@ -8,4 +8,4 @@ layout: single
 
 Add content about General resource for neuroscience and clinical research here...
 
-[Back to Resources](/resources/)
+[Back to Resources](./resources.md)
