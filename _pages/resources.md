@@ -30,7 +30,7 @@ Explore our curated resources to support your work:
 
   <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; text-align: center;">
     <h3><a href="/resources-tom-fuchs/">General resource for neuroscience and clinical research</a></h3>
-    <p>General resources for neuroscientists and clinical researchers.</p>
+    <p>Curated by our colleague Tom Fuchs on Notion.</p>
   </div>
 
 </div>
