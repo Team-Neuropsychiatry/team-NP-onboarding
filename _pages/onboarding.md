@@ -21,22 +21,20 @@ This page outlines all the steps necessary to ensure effective onboarding for ne
 ---
 
 ### <p id="Access"> **Access to buildings and systems** </p>
-- Access to Building and Computers 
+- Obtain Amsterdam UMC Account (requires non-expired government identification). (...)
+- Access to Building and Computers
 - Obtain building card access. You will receive instructions via email from the ANW secretariat. Multi-step process.  
-- Obtain Amsterdam UMC Account (requires non-expired government identification).
-- Download MobaXTerm 
+- Download MobaXTerm: https://mobaxterm.mobatek.net/download.html.
 - Obtain AMC network access (contact IT) 
-- Obtain Luna server account. This is dependent on activation of the AMC network access; see above.
+- Obtain Helios server account. This is dependent on activation of the AMC network access; see above.
 
 ---
 
 ### <p id="Training"> **Training** </p>
-- If performing MRI processing, become acquainted with FSL and Freesurfer image analysis tools. Tutorials available online. 
-- FSL: FSL Course (ox.ac.uk) 
-- If performing MRI processing Review list of available software containers on the Luna server in the Luna server SharePoint documentation (dependent on Amsterdam UMC account) 
+- If performing MRI processing, become acquainted with image analysis tools that your project requires. Often, tutorials are available online. See also: [ref to running-analyses]
+- Review list of available software containers on the Luna server in the Luna server SharePoint documentation (dependent on Amsterdam UMC account) 
 - MijnHR Bekwaamheden (Mandatory Skills). See secretariate email 
 - If performing neuropsychological evaluations, then ask supervisor for best person to contact for training 
-- If working in the wet-lab then set up access and training 
 
 ---
 
