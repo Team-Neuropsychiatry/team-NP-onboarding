@@ -25,20 +25,15 @@ Welcome to the Onboarding page. This page outlines all the steps necessary to en
 
 ## Training {#training}
 
-- If performing MRI processing, become acquainted with FSL and Freesurfer image analysis tools. Tutorials available online.
-  - [FSL Course](https://ox.ac.uk)
-- If performing MRI processing: Review list of available software containers on the Luna server in the Luna server SharePoint documentation (dependent on Amsterdam UMC account)
-- MijnHR Bekwaamheden (Mandatory Skills). See secretariate email
-- If performing neuropsychological evaluations, then ask supervisor for best person to contact for training
-- If working in the wet-lab then set up access and training
+- Complete your e-learnings and MijnHR Bekwaamheden (Mandatory Skills). See explanation from the secretariat in their email to you
+- If you're working on the server, ask your daily supervisor to give you a tour of the server and to discuss do's and don'ts
+- Discuss other project-specific trainings with your daily supervisor
 
 ## Lists & Invitations {#listadmin}
 
-- Add new student to KNW weekly intern meeting calendar event spreadsheet
-  - File Location: Google drive
-- Obtain datacamp.com online access using the following URL:
+- Ask to be added to the team meeting email list - by Eva Oostra
+- Ask to be added to the teams channel - by your daily supervisor
 
-## Other {#other}
+## Other fun things {#other}
 
-- Arrange regular meeting with your daily supervisor for early project start-up
 - Explore the underground tunnels between the hospital buildings ;)
