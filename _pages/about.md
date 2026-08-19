@@ -77,8 +77,8 @@ layout: single
 </div>
 
 
-
-<div style="text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; margin: 30px 0;">
+<div style="text-align: center; width: 150px;">
 <a href="https://nichy-consortium.github.io/nichy/" target="\_blank">
 <img src="{{ site.baseurl }}/assets/logos/NICHYlogo.png" alt="NICHY" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
 </a>
