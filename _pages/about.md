@@ -13,6 +13,8 @@ layout: single
 <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; text-align: center; margin: 30px 0;">
 <h3>Projects</h3>
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin: 30px 0;">
+
+  
 <div style="text-align: center;">
 <a href="https://www.tetro-ocd.nl" target="\_blank">
 <img src="{{ site.baseurl }}/assets/logos/Logo_Tetro.jpg" alt="TETRO" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
@@ -26,9 +28,30 @@ layout: single
 <p style="margin-top: 10px; font-weight: 600;">MALIBU</p>
 </div>
 <div style="text-align: center;">
+<a href="http://www.t-pad.nl/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/Logo_T-PAD_withtext.jpg" alt="T-PAD" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">T-PAD</p>
+</div>
+<div style="text-align: center;">
+<a href="https://psychiatryamsterdam.nl/projecten/nescio-pd-2/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/NESCIO-logo-wp.jpg" alt="NESCIO-PD" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">NESCIO-PD</p>
+</div>
+
+<div style="text-align: center;">
+<a href="https://ddott.nl/" target="_blank">
+<div style="width: 150px; height: 150px; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px; display: flex; align-items: center; justify-content: center; margin: 0 auto; text-transform: uppercase; font-weight: 700; color: #333;">D-DOTT</div>
+</a>
+<p style="margin-top: 10px; font-weight: 600;">D-DOTT</p>
+</div>
+
+<div style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/logos/CovAID.png" alt="CovAID" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
 <p style="margin-top: 10px; font-weight: 600;">CovAID</p>
 </div>
+
 </div>
 </div>
 <!--
