@@ -76,6 +76,7 @@ layout: single
 <p style="margin-top: 10px; font-weight: 600;">ENIGMA-OCD</p>
 </div>
 
+</div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; margin: 30px 0;">
 <div style="text-align: center; width: 150px;">
@@ -84,10 +85,9 @@ layout: single
 </a>
 <p style="margin-top: 10px; font-weight: 600;">NICHY</p>
 </div>
+</div>
 
 
-</div>
-</div>
 <!--
 To add a new project, copy and paste this template into the grid above:
 <div style="text-align: center;">
