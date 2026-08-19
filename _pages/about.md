@@ -49,6 +49,13 @@ layout: single
 </div>
 
 <div style="text-align: center;">
+<a href="https://psychiatryamsterdam.nl/projecten/sleep-deep/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/Sleep-Deep.jpg" alt="Sleep Deep" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">Sleep Deep</p>
+</div>
+
+<div style="text-align: center;">
 <a href="https://enigma-infra.github.io/ENIGMA-PD/" target="\_blank">
 <img src="{{ site.baseurl }}/assets/logos/enigma_logo.png" alt="ENIGMA-PD" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
 </a>
@@ -69,21 +76,14 @@ layout: single
 <p style="margin-top: 10px; font-weight: 600;">ENIGMA-OCD</p>
 </div>
 
-<div style="text-align: center;">
-<a href="https://psychiatryamsterdam.nl/projecten/sleep-deep/" target="\_blank">
-<img src="{{ site.baseurl }}/assets/logos/Sleep-Deep.jpg" alt="Sleep Deep" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
-</a>
-<p style="margin-top: 10px; font-weight: 600;">Sleep Deep</p>
-</div>
+
 
 <div style="text-align: center;">
 <a href="https://nichy-consortium.github.io/nichy/" target="\_blank">
-<img src="{{ site.baseurl }}/assets/logos/Sleep-Deep.jpg" alt="NICHY" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+<img src="{{ site.baseurl }}/assets/logos/NICHYlogo.png" alt="NICHY" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
 </a>
 <p style="margin-top: 10px; font-weight: 600;">NICHY</p>
 </div>
-
-
 
 
 </div>
