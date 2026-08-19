@@ -33,6 +33,14 @@ layout: single
 </a>
 <p style="margin-top: 10px; font-weight: 600;">T-PAD</p>
 </div>
+
+<div style="text-align: center;">
+<a href="https://ddott.nl/" target="_blank">
+<img src="{{ site.baseurl }}/assets/logos/DDOTT_logo_cropped.png" alt="NESCIO-PD" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">D-DOTT</p>
+</div>
+
 <div style="text-align: center;">
 <a href="https://psychiatryamsterdam.nl/projecten/nescio-pd-2/" target="\_blank">
 <img src="{{ site.baseurl }}/assets/logos/NESCIO-logo-wp.jpg" alt="NESCIO-PD" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
@@ -41,16 +49,42 @@ layout: single
 </div>
 
 <div style="text-align: center;">
-<a href="https://ddott.nl/" target="_blank">
-<div style="width: 150px; height: 150px; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px; display: flex; align-items: center; justify-content: center; margin: 0 auto; text-transform: uppercase; font-weight: 700; color: #333;">D-DOTT</div>
+<a href="https://enigma-infra.github.io/ENIGMA-PD/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/enigma_logo.png" alt="ENIGMA-PD" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
 </a>
-<p style="margin-top: 10px; font-weight: 600;">D-DOTT</p>
+<p style="margin-top: 10px; font-weight: 600;">ENIGMA-PD</p>
 </div>
 
 <div style="text-align: center;">
-<img src="{{ site.baseurl }}/assets/logos/CovAID.png" alt="CovAID" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
-<p style="margin-top: 10px; font-weight: 600;">CovAID</p>
+<a href="https://enigma-infra.github.io/ENIGMA-Tremor/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/enigma_logo.png" alt="ENIGMA-Tremor" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">ENIGMA-Tremor</p>
 </div>
+
+<div style="text-align: center;">
+<a href="https://psychiatryamsterdam.nl/projecten/enigma-ocd/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/enigma_logo.png" alt="ENIGMA-OCD" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">ENIGMA-OCD</p>
+</div>
+
+<div style="text-align: center;">
+<a href="https://psychiatryamsterdam.nl/projecten/sleep-deep/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/Sleep-Deep.jpg" alt="Sleep Deep" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">Sleep Deep</p>
+</div>
+
+<div style="text-align: center;">
+<a href="https://nichy-consortium.github.io/nichy/" target="\_blank">
+<img src="{{ site.baseurl }}/assets/logos/Sleep-Deep.jpg" alt="NICHY" style="width: 150px; height: 150px; object-fit: contain; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 15px;">
+</a>
+<p style="margin-top: 10px; font-weight: 600;">NICHY</p>
+</div>
+
+
+
 
 </div>
 </div>
