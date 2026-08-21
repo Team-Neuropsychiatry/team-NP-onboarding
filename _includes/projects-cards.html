@@ -52,19 +52,14 @@
     margin-bottom: 12px;
     text-align: left;
     padding: 0 10px;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 
-  .project-team-label {
+  .project-team-name {
     font-weight: 600;
     color: #333;
     display: block;
-    margin-bottom: 4px;
-    margin-top: 6px;
-  }
-
-  .project-team-label:first-child {
-    margin-top: 0;
+    margin-bottom: 8px;
   }
 
   .project-keywords {
@@ -79,10 +74,87 @@
   .project-keyword {
     display: inline-block;
     font-size: 11px;
-    padding: 4px 10px;
-    background: #f0f0f0;
+    padding: 5px 12px;
     border-radius: 15px;
-    color: #333;
+    font-weight: 500;
+  }
+
+  /* Keyword color mapping */
+  .project-keyword[data-keyword="mri"] {
+    background: #e8f4fd;
+    color: #1e5a96;
+  }
+
+  .project-keyword[data-keyword="rtms"] {
+    background: #fef3e8;
+    color: #8b6914;
+  }
+
+  .project-keyword[data-keyword="clinical-trial"] {
+    background: #f0e8fd;
+    color: #6b3fa0;
+  }
+
+  .project-keyword[data-keyword="consortium"] {
+    background: #e8fdf3;
+    color: #1d6f4f;
+  }
+
+  .project-keyword[data-keyword="big-data"] {
+    background: #fde8f0;
+    color: #8b1f47;
+  }
+
+  .project-keyword[data-keyword="eeg"] {
+    background: #fde8e8;
+    color: #8b3333;
+  }
+
+  .project-keyword[data-keyword="neuroimaging"] {
+    background: #e8fdeb;
+    color: #2d6f2d;
+  }
+
+  .project-keyword[data-keyword="ocd"],
+  .project-keyword[data-keyword="obsessive-compulsive-disorder"] {
+    background: #fde8ec;
+    color: #7d1e42;
+  }
+
+  .project-keyword[data-keyword="parkinsons-disease"],
+  .project-keyword[data-keyword="parkinsons"] {
+    background: #f8e8fd;
+    color: #5a2d7a;
+  }
+
+  .project-keyword[data-keyword="depression"] {
+    background: #e8f2fd;
+    color: #1a3a5c;
+  }
+
+  .project-keyword[data-keyword="bipolar-disorder"] {
+    background: #fde8d8;
+    color: #8b5a1f;
+  }
+
+  .project-keyword[data-keyword="long-covid"] {
+    background: #fdede8;
+    color: #7d3d1f;
+  }
+
+  .project-keyword[data-keyword="sleep-disorders"] {
+    background: #e8e8fd;
+    color: #3d3d7d;
+  }
+
+  .project-keyword[data-keyword="narcolepsy"] {
+    background: #fde8f8;
+    color: #7d1f66;
+  }
+
+  .project-keyword[data-keyword="essential-tremor"] {
+    background: #e8fdfd;
+    color: #1f7d7d;
   }
 
   @media (max-width: 900px) {
@@ -110,25 +182,23 @@
 
         <div class="project-team-section">
           {% if project.pis %}
-            <span class="project-team-label">PI(s)</span>
-            <div>{{ project.pis }}</div>
+            <span class="project-team-name">{{ project.pis }}</span>
           {% endif %}
 
           {% if project.leads %}
-            <span class="project-team-label">Lead(s)</span>
-            <div>{{ project.leads }}</div>
+            <span class="project-team-name">{{ project.leads }}</span>
           {% endif %}
 
           {% if project.members %}
-            <span class="project-team-label">Members</span>
-            <div>{{ project.members }}</div>
+            <span class="project-team-name">{{ project.members }}</span>
           {% endif %}
         </div>
 
         {% if project.keywords %}
           <div class="project-keywords">
             {% for keyword in project.keywords %}
-              <span class="project-keyword">{{ keyword }}</span>
+              {% assign keyword_slug = keyword | downcase | replace: " ", "-" | replace: "'", "" %}
+              <span class="project-keyword" data-keyword="{{ keyword_slug }}">{{ keyword }}</span>
             {% endfor %}
           </div>
         {% endif %}
