@@ -87,14 +87,27 @@
   }
 </style>
 
-<div class="team-cards-grid">
+<div>
+  {% assign current_role = "" %}
   {% for person in site.data.team-members-data.people %}
+    
+    {% if person.role != current_role %}
+      {% if current_role != "" %}</div>{% endif %}
+      <h3 style="margin-top: 30px; margin-bottom: 20px; font-size: 20px; color: #1a1a1a;">{{ person.role }}</h3>
+      <div class="team-cards-grid">
+      {% assign current_role = person.role %}
+    {% endif %}
+
     <div class="team-card">
       <img src="{{ site.baseurl }}/{{ person.image }}" alt="{{ person.name }}" class="team-card-image">
       <div class="team-card-content">
-        <a href="{{ person.website }}" class="team-card-name-link" target="_blank" rel="noopener noreferrer">
+        {% if person.website %}
+          <a href="{{ person.website }}" class="team-card-name-link" target="_blank" rel="noopener noreferrer">
+            <div class="team-card-name">{{ person.name }}</div>
+          </a>
+        {% else %}
           <div class="team-card-name">{{ person.name }}</div>
-        </a>
+        {% endif %}
         {% if person.projects %}
           <div class="team-card-tags">
             {% for project in person.projects %}
@@ -109,4 +122,5 @@
       </div>
     </div>
   {% endfor %}
+  </div>
 </div>
