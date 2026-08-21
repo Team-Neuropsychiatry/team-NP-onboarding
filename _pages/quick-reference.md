@@ -25,9 +25,9 @@ Not sure who to contact for your question? Use this quick guide. Feel free to ad
 *Who to ask:* IT Support
 *How:* Servicedesk via Intranet 
 
-**4: Luna**
-*Question:* Where can I find more information about how Luna works?
-*How:* In the Teams
+**4: Helios**
+*Question:* Where can I find more information about how the Helios server works?
+*How:* More info on [this page](./resources-server.md)
 
 **5: Declaration**
 *Question:* Where can I find the declaration form?
