@@ -90,7 +90,7 @@
 <div class="team-cards-grid">
   {% for person in site.data.team-members-data.people %}
     <div class="team-card">
-      <img src="{{ person.image }}" alt="{{ person.name }}" class="team-card-image">
+      <img src="{{ site.baseurl }}/{{ person.image }}" alt="{{ person.name }}" class="team-card-image">
       <div class="team-card-content">
         <a href="{{ person.website }}" class="team-card-name-link" target="_blank" rel="noopener noreferrer">
           <div class="team-card-name">{{ person.name }}</div>
