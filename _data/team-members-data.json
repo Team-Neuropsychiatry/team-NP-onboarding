@@ -1,12 +1,13 @@
 {
   "people": [
     {
+      "role": "Head",
       "name": "Odile van den Heuvel",
       "website": "https://pure.amsterdamumc.nl/en/persons/odile-van-den-heuvel/",
       "image": "assets/photos/headshots/Odile_vandenHeuvel.jpg",
       "projects": [
         {
-          "name": "Tetro",
+          "name": "TETRO",
           "url": "https://www.tetro-ocd.nl/"
         },
         {
@@ -14,6 +15,272 @@
           "url": "https://ddott.nl/"
         }
       ]
+    },
+    {
+      "role": "Co-leads",
+      "name": "Ysbrand van der Werf",
+      "website": "",
+      "image": "assets/photos/headshots/Ysbrand_vanderWerf.jpg",
+      "projects": []
+    },
+    {
+      "role": "Co-leads",
+      "name": "Chris Vriend",
+      "website": "https://pure.amsterdamumc.nl/en/persons/chris-vriend/",
+      "image": "assets/photos/headshots/Chris_Vriend.jpg",
+      "projects": []
+    },
+    {
+      "role": "Seniors",
+      "name": "Hein van Marle",
+      "website": "",
+      "image": "assets/photos/headshots/Hein_vanMarle.jpg",
+      "projects": []
+    },
+    {
+      "role": "Seniors",
+      "name": "Eric van Exel",
+      "website": "",
+      "image": "assets/photos/headshots/Eric_vanExel.jpg",
+      "projects": []
+    },
+    {
+      "role": "Seniors",
+      "name": "Sander Verfaillie",
+      "website": "",
+      "image": "assets/photos/headshots/Sander_Verfaillie.jpg",
+      "projects": []
+    },
+    {
+      "role": "Seniors",
+      "name": "Tim van Balkom",
+      "website": "",
+      "image": "assets/photos/headshots/Tim_vanBalkom.jpg",
+      "projects": []
+    },
+    {
+      "role": "Seniors",
+      "name": "Jari Gool",
+      "website": "",
+      "image": "assets/photos/headshots/Jari_Gool.jpg",
+      "projects": []
+    },
+    {
+      "role": "Seniors",
+      "name": "Anders Lillevik Thorsen",
+      "website": "",
+      "image": "assets/photos/headshots/Anders_LillevikThorsen.jpg",
+      "projects": []
+    },
+    {
+      "role": "Postdocs",
+      "name": "Emile d'Angremont",
+      "website": "",
+      "image": "assets/photos/headshots/Emile_dAngremont.jpg",
+      "projects": []
+    },
+    {
+      "role": "Postdocs",
+      "name": "Alekos Vamvakas",
+      "website": "",
+      "image": "assets/photos/headshots/Alekos_Vamvakas.jpg",
+      "projects": []
+    },
+    {
+      "role": "Postdocs",
+      "name": "Niels de Joode",
+      "website": "https://pure.amsterdamumc.nl/en/persons/niels-de-joode/",
+      "image": "assets/photos/headshots/Niels_deJoode.jpg",
+      "projects": []
+    },
+    {
+      "role": "Postdocs",
+      "name": "Sophie Fitzsimmons",
+      "website": "https://pure.amsterdamumc.nl/en/persons/sophie-fitzsimmons/",
+      "image": "assets/photos/headshots/Sophie_Fitzsimmons.jpg",
+      "projects": []
+    },
+    {
+      "role": "Postdocs",
+      "name": "Willem Bruin",
+      "website": "https://pure.amsterdamumc.nl/en/persons/willem-bruin/",
+      "image": "assets/photos/headshots/Willem_Bruin.jpg",
+      "projects": []
+    },
+    {
+      "role": "Postdocs",
+      "name": "Max Laansma",
+      "website": "",
+      "image": "assets/photos/headshots/Max_Laansma.jpg",
+      "projects": []
+    },
+    {
+      "role": "Postdocs",
+      "name": "Henne van der Heijden",
+      "website": "",
+      "image": "assets/photos/headshots/Henne_vanderHeijden.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Tjardo Postma",
+      "website": "",
+      "image": "assets/photos/headshots/Tjardo_Postma.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Eva Oostra",
+      "website": "",
+      "image": "assets/photos/headshots/Eva_Oostra.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Nadža Džinalija",
+      "website": "",
+      "image": "assets/photos/headshots/Nadza_Dzinalija.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Eva van Heese",
+      "website": "https://pure.amsterdamumc.nl/en/persons/eva-van-heese/",
+      "image": "assets/photos/headshots/Eva_vanHeese.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Coen Coomans",
+      "website": "",
+      "image": "assets/photos/headshots/Coen_Coomans.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Hidde Woerdman",
+      "website": "",
+      "image": "assets/photos/headshots/Hidde_Woerdman.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Ploon de Potter",
+      "website": "https://pure.amsterdamumc.nl/en/persons/ploon-de-potter/",
+      "image": "assets/photos/headshots/Ploon_dePotter.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Lilian Bot",
+      "website": "",
+      "image": "assets/photos/headshots/Lilian_Bot.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Celine Dietz",
+      "website": "",
+      "image": "assets/photos/headshots/Celine_Dietz.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Keetje Voogd",
+      "website": "",
+      "image": "assets/photos/headshots/Keetje_Voogd.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Leonardo Nacci",
+      "website": "",
+      "image": "assets/photos/headshots/Leonardo_Nacci.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Wianne Schipper",
+      "website": "",
+      "image": "assets/photos/headshots/Wianne_Schipper.jpg",
+      "projects": []
+    },
+    {
+      "role": "PhD students",
+      "name": "Chahd El Fassi",
+      "website": "",
+      "image": "assets/photos/headshots/Chahd_ElFassi.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Dorottya Iványi",
+      "website": "",
+      "image": "assets/photos/headshots/Dorottya_Ivanyi.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Roos v Oeveren",
+      "website": "",
+      "image": "assets/photos/headshots/Roos_vOeveren.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Bruno Moses",
+      "website": "",
+      "image": "assets/photos/headshots/Bruno_Moses.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Tessa van Diemen",
+      "website": "",
+      "image": "assets/photos/headshots/Tessa_vanDiemen.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Nikki Bootsma",
+      "website": "",
+      "image": "assets/photos/headshots/Nikki_Bootsma.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Jiska van Wijk",
+      "website": "",
+      "image": "assets/photos/headshots/Jiska_vanWijk.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Imke Molenaar",
+      "website": "",
+      "image": "assets/photos/headshots/Imke_Molenaar.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Eva de Jong",
+      "website": "",
+      "image": "assets/photos/headshots/Eva_deJong.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Rustam Houssain",
+      "website": "",
+      "image": "assets/photos/headshots/Rustam_Houssain.jpg",
+      "projects": []
+    },
+    {
+      "role": "Research assistants",
+      "name": "Eloise van Alphen",
+      "website": "",
+      "image": "assets/photos/headshots/Eloise_vanAlphen.jpg",
+      "projects": []
     }
   ]
 }
