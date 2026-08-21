@@ -31,24 +31,22 @@
     padding: 24px;
   }
 
+  .team-card-name-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .team-card-name-link:hover .team-card-name {
+    color: #0066cc;
+  }
+
   .team-card-name {
     font-size: 18px;
     font-weight: 600;
     color: #1a1a1a;
-    margin-bottom: 8px;
-  }
-
-  .team-card-link {
-    font-size: 13px;
-    color: #0066cc;
-    text-decoration: none;
-    display: inline-block;
     margin-bottom: 16px;
-    word-break: break-all;
-  }
-
-  .team-card-link:hover {
-    text-decoration: underline;
+    transition: color 0.2s;
   }
 
   .team-card-tags {
@@ -94,8 +92,9 @@
     <div class="team-card">
       <img src="{{ person.image }}" alt="{{ person.name }}" class="team-card-image">
       <div class="team-card-content">
-        <div class="team-card-name">{{ person.name }}</div>
-        <a href="{{ person.website }}" class="team-card-link" target="_blank" rel="noopener noreferrer">{{ person.website }}</a>
+        <a href="{{ person.website }}" class="team-card-name-link" target="_blank" rel="noopener noreferrer">
+          <div class="team-card-name">{{ person.name }}</div>
+        </a>
         {% if person.projects %}
           <div class="team-card-tags">
             {% for project in person.projects %}
