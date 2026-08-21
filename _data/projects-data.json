@@ -1,23 +1,21 @@
 {
   "projects": [
     {
-      "title": "TETRO",
-      "logo": "assets/logos/Logo_Tetro.jpg",
-      "website": "https://www.tetro-ocd.nl",
-      "pis": "Odile van den Heuvel",
-      "leads": "Tjardo Postma",
+      "title": "ARRIBA",
+      "logo": "assets/logos/ARRIBA_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
       "members": "",
       "keywords": [
         "Obsessive compulsive disorder",
-        "clinical trial",
-        "rTMS",
-        "MRI"
+        "clinical trial"
       ]
     },
     {
       "title": "D-DOTT",
       "logo": "assets/logos/DDOTT_logo_cropped.png",
-      "website": "https://ddott.nl/",
+      "website": "",
       "pis": "",
       "leads": "",
       "members": "",
@@ -29,41 +27,14 @@
       ]
     },
     {
-      "title": "MALIBU",
-      "logo": "assets/logos/malibu_logo.png",
-      "website": "https://hersenstimulatie-longcovid.nl",
-      "pis": "",
-      "leads": "",
+      "title": "ENIGMA-OCD",
+      "logo": "assets/logos/enigma_logo.png",
+      "website": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/",
+      "pis": "Odile van den Heuvel, Chris Vriend",
+      "leads": "Nadža Džinalija",
       "members": "",
       "keywords": [
-        "Long-Covid",
-        "clinical trial",
-        "rTMS",
-        "MRI"
-      ]
-    },
-    {
-      "title": "Sleep Deep",
-      "logo": "assets/logos/Sleep-Deep.jpg",
-      "website": "",
-      "pis": "Hein van Marle",
-      "leads": "Ploon de Potter",
-      "members": "Dorottya Iványi",
-      "keywords": [
-        "PTSD",
-        "clinical trial",
-        "closed loop auditory stimulation"
-      ]
-    },
-    {
-      "title": "NICHY",
-      "logo": "assets/logos/NICHYlogo.png",
-      "website": "https://nichy-consortium.github.io/nichy/",
-      "pis": "Ysbrand van der Werf",
-      "leads": "Eva van Heese, Keetje Voogd",
-      "members": "Jari Gool, Niels de Joode",
-      "keywords": [
-        "narcolepsy",
+        "Obsessive compulsive disorder",
         "consortium",
         "MRI",
         "big data"
@@ -84,20 +55,6 @@
       ]
     },
     {
-      "title": "ENIGMA-OCD",
-      "logo": "assets/logos/enigma_logo.png",
-      "website": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/",
-      "pis": "Odile van den Heuvel, Chris Vriend",
-      "leads": "Nadža Džinalija",
-      "members": "",
-      "keywords": [
-        "Obsessive compulsive disorder",
-        "consortium",
-        "MRI",
-        "big data"
-      ]
-    },
-    {
       "title": "ENIGMA-Tremor",
       "logo": "assets/logos/enigma_logo.png",
       "website": "https://enigma-infra.github.io/ENIGMA-Tremor/",
@@ -112,18 +69,37 @@
       ]
     },
     {
-      "title": "T-PAD",
-      "logo": "assets/logos/Logo_T-PAD_withtext.jpg",
-      "website": "https://www.t-pad.nl",
-      "pis": "Neeltje Batelaan, Sophie Fitzsimmons",
+      "title": "Global OCD",
+      "logo": "assets/logos/GlobalOCD_logo.png",
+      "website": "",
+      "pis": "",
       "leads": "",
-      "members": "Odile van den Heuvel, Ysbrand van der Werf",
-      "keywords": []
+      "members": "",
+      "keywords": [
+        "Obsessive compulsive disorder",
+        "consortium",
+        "MRI",
+        "big data"
+      ]
+    },
+    {
+      "title": "MALIBU",
+      "logo": "assets/logos/malibu_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": [
+        "Long-Covid",
+        "clinical trial",
+        "rTMS",
+        "MRI"
+      ]
     },
     {
       "title": "NESCIO-PD",
       "logo": "assets/logos/NESCIO-logo-wp.jpg",
-      "website": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/",
+      "website": "",
       "pis": "",
       "leads": "",
       "members": "",
@@ -134,17 +110,17 @@
       ]
     },
     {
-      "title": "REMIND",
-      "logo": "assets/logos/REMIND_logo.png",
-      "website": "",
-      "pis": "Ysbrand van der Werf, Karin van Dijk, Odile van den Heuvel, Evelien Lemstra",
-      "leads": "Max Laansma, Eva van Heese",
-      "members": "Roos van Oeveren",
+      "title": "NICHY",
+      "logo": "assets/logos/NICHYlogo.png",
+      "website": "https://nichy-consortium.github.io/nichy/",
+      "pis": "Ysbrand van der Werf",
+      "leads": "Eva van Heese, Keetje Voogd",
+      "members": "Jari Gool, Niels de Joode",
       "keywords": [
-        "Parkinson's disease, Dementia with Lewy Bodies, REM Sleep behaviour disorder",
-        "observational study",
+        "narcolepsy",
+        "consortium",
         "MRI",
-        "7T"
+        "big data"
       ]
     },
     {
@@ -157,6 +133,71 @@
       "keywords": [
         "Parkinson's disease",
         "observational study",
+        "MRI"
+      ]
+    },
+    {
+      "title": "REMIND",
+      "logo": "assets/logos/REMIND_logo.png",
+      "website": "",
+      "pis": "Ysbrand van der Werf, Karin van Dijk, Odile van den Heuvel, Evelien Lemstra",
+      "leads": "Max Laansma, Eva van Heese",
+      "members": "Roos van Oeveren",
+      "keywords": [
+        "Parkinson's disease",
+        "Dementia with Lewy Bodies",
+        "REM Sleep behaviour disorder",
+        "observational study",
+        "MRI",
+        "7T"
+      ]
+    },
+    {
+      "title": "Sleep Deep",
+      "logo": "assets/logos/Sleep-Deep.jpg",
+      "website": "",
+      "pis": "Hein van Marle",
+      "leads": "Ploon de Potter",
+      "members": "Dorottya Iványi",
+      "keywords": [
+        "PTSD",
+        "clinical trial",
+        "closed loop auditory stimulation"
+      ]
+    },
+    {
+      "title": "T-PAD",
+      "logo": "assets/logos/Logo_T-PAD_withtext.jpg",
+      "website": "https://www.t-pad.nl",
+      "pis": "Neeltje Batelaan, Sophie Fitzsimmons",
+      "leads": "",
+      "members": "Odile van den Heuvel, Ysbrand van der Werf",
+      "keywords": []
+    },
+    {
+      "title": "TBIDE",
+      "logo": "assets/logos/TBIDE_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": [
+        "Bipolar disorder",
+        "clinical trial",
+        "rTMS"
+      ]
+    },
+    {
+      "title": "TETRO",
+      "logo": "assets/logos/Logo_Tetro.jpg",
+      "website": "https://www.tetro-ocd.nl",
+      "pis": "Odile van den Heuvel",
+      "leads": "Tjardo Postma, Wianne Schipper",
+      "members": "",
+      "keywords": [
+        "Obsessive compulsive disorder",
+        "clinical trial",
+        "rTMS",
         "MRI"
       ]
     },
@@ -175,45 +216,6 @@
       ]
     },
     {
-      "title": "TBIDE",
-      "logo": "assets/logos/TBIDE_logo.png",
-      "website": "",
-      "pis": "",
-      "leads": "",
-      "members": "",
-      "keywords": [
-        "Bipolar disorder",
-        "clinical trial",
-        "rTMS"
-      ]
-    },
-    {
-      "title": "ARRIBA",
-      "logo": "assets/logos/ARRIBA_logo.png",
-      "website": "",
-      "pis": "",
-      "leads": "",
-      "members": "",
-      "keywords": [
-        "Obsessive compulsive disorder",
-        "clinical trial"
-      ]
-    },
-    {
-      "title": "Global OCD",
-      "logo": "assets/logos/GlobalOCD_logo.png",
-      "website": "",
-      "pis": "",
-      "leads": "",
-      "members": "",
-      "keywords": [
-        "Obsessive compulsive disorder",
-        "consortium",
-        "MRI",
-        "big data"
-      ]
-    },
-    {
       "title": "MEGA-OCD",
       "logo": "assets/logos/MEGA-OCD_logo.png",
       "website": "https://laborit-studie.nl",
@@ -222,6 +224,7 @@
       "members": "",
       "keywords": [
         "Obsessive compulsive disorder",
+        "Catatonia",
         "clinical trial"
       ]
     }
