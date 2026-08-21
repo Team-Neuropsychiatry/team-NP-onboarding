@@ -1,0 +1,140 @@
+{
+  "projects": [
+    {
+      "title": "TETRO",
+      "logo": "assets/logos/Logo_Tetro.jpg",
+      "website": "https://www.tetro-ocd.nl",
+      "pis": "Odile van den Heuvel",
+      "leads": "Name Lastname",
+      "members": "Team member 1, Team member 2, Team member 3",
+      "keywords": [
+        "Obsessive compulsive disorder",
+        "clinical trial",
+        "rTMS",
+        "MRI"
+      ]
+    },
+    {
+      "title": "MALIBU",
+      "logo": "assets/logos/malibu_logo.png",
+      "website": "https://hersenstimulatie-longcovid.nl",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Long-Covid",
+        "clinical trial",
+        "rTMS",
+        "MRI"
+      ]
+    },
+    {
+      "title": "T-PAD",
+      "logo": "assets/logos/Logo_T-PAD_withtext.jpg",
+      "website": "http://www.t-pad.nl/",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Depression",
+        "clinical trial",
+        "rTMS",
+        "MRI"
+      ]
+    },
+    {
+      "title": "D-DOTT",
+      "logo": "assets/logos/DDOTT_logo_cropped.png",
+      "website": "https://ddott.nl/",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Bipolar disorder",
+        "clinical trial",
+        "rTMS"
+      ]
+    },
+    {
+      "title": "NESCIO-PD",
+      "logo": "assets/logos/NESCIO-logo-wp.jpg",
+      "website": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Parkinson's disease",
+        "clinical trial",
+        "neuroimaging"
+      ]
+    },
+    {
+      "title": "Sleep Deep",
+      "logo": "assets/logos/Sleep-Deep.jpg",
+      "website": "https://psychiatryamsterdam.nl/projecten/sleep-deep/",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Sleep disorders",
+        "clinical trial",
+        "EEG"
+      ]
+    },
+    {
+      "title": "ENIGMA-PD",
+      "logo": "assets/logos/enigma_logo.png",
+      "website": "https://enigma-infra.github.io/ENIGMA-PD/",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Parkinson's disease",
+        "consortium",
+        "MRI",
+        "big data"
+      ]
+    },
+    {
+      "title": "ENIGMA-Tremor",
+      "logo": "assets/logos/enigma_logo.png",
+      "website": "https://enigma-infra.github.io/ENIGMA-Tremor/",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Essential tremor",
+        "consortium",
+        "MRI",
+        "big data"
+      ]
+    },
+    {
+      "title": "ENIGMA-OCD",
+      "logo": "assets/logos/enigma_logo.png",
+      "website": "https://psychiatryamsterdam.nl/projecten/enigma-ocd/",
+      "pis": "Odile van den Heuvel",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Obsessive compulsive disorder",
+        "consortium",
+        "MRI",
+        "big data"
+      ]
+    },
+    {
+      "title": "NICHY",
+      "logo": "assets/logos/NICHYlogo.png",
+      "website": "https://nichy-consortium.github.io/nichy/",
+      "pis": "PI Name",
+      "leads": "Project Lead",
+      "members": "Team member 1, Team member 2",
+      "keywords": [
+        "Narcolepsy",
+        "consortium",
+        "MRI"
+      ]
+    }
+  ]
+}
