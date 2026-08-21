@@ -1,9 +1,9 @@
 {
   "people": [
     {
-      "name": "Odile van Den Heuvel",
-      "website": "https://alice.dev",
-      "image": "assets/photos/headshots/Odile_vandenHeuvel.jpg",
+      "name": "Odile van den Heuvel",
+      "website": "https://www.amsterdamumc.org/en/research/researchers/odile-van-den-heuvel",
+      "image": "/assets/photos/headshots/Odile_vandenHeuvel.jpg",
       "projects": [
         {
           "name": "Tetro",
