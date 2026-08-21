@@ -2,14 +2,14 @@
 main:
   - title: "About Team NP"
     url: /about/
+  - title: "Projects"
+    url: /projects/
   - title: "Onboarding"
     url: /onboarding/
   - title: "Resources"
     url: /resources/
   - title: "Who to ask?"
     url: /quick-reference/
-  - title: "News"
-    url: /news/
   - title: "Publications"
     url: /publications/
   - title: "Contact Us"
