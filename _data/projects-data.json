@@ -5,38 +5,10 @@
       "logo": "assets/logos/Logo_Tetro.jpg",
       "website": "https://www.tetro-ocd.nl",
       "pis": "Odile van den Heuvel",
-      "leads": "Name Lastname",
-      "members": "Team member 1, Team member 2, Team member 3",
+      "leads": "Tjardo Postma",
+      "members": "",
       "keywords": [
         "Obsessive compulsive disorder",
-        "clinical trial",
-        "rTMS",
-        "MRI"
-      ]
-    },
-    {
-      "title": "MALIBU",
-      "logo": "assets/logos/malibu_logo.png",
-      "website": "https://hersenstimulatie-longcovid.nl",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
-      "keywords": [
-        "Long-Covid",
-        "clinical trial",
-        "rTMS",
-        "MRI"
-      ]
-    },
-    {
-      "title": "T-PAD",
-      "logo": "assets/logos/Logo_T-PAD_withtext.jpg",
-      "website": "http://www.t-pad.nl/",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
-      "keywords": [
-        "Depression",
         "clinical trial",
         "rTMS",
         "MRI"
@@ -46,50 +18,80 @@
       "title": "D-DOTT",
       "logo": "assets/logos/DDOTT_logo_cropped.png",
       "website": "https://ddott.nl/",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
+      "pis": "",
+      "leads": "",
+      "members": "",
       "keywords": [
-        "Bipolar disorder",
+        "Depression",
         "clinical trial",
-        "rTMS"
+        "rTMS",
+        "MRI"
       ]
     },
     {
-      "title": "NESCIO-PD",
-      "logo": "assets/logos/NESCIO-logo-wp.jpg",
-      "website": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
+      "title": "MALIBU",
+      "logo": "assets/logos/malibu_logo.png",
+      "website": "https://hersenstimulatie-longcovid.nl",
+      "pis": "",
+      "leads": "",
+      "members": "",
       "keywords": [
-        "Parkinson's disease",
+        "Long-Covid",
         "clinical trial",
-        "neuroimaging"
+        "rTMS",
+        "MRI"
       ]
     },
     {
       "title": "Sleep Deep",
       "logo": "assets/logos/Sleep-Deep.jpg",
-      "website": "https://psychiatryamsterdam.nl/projecten/sleep-deep/",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
+      "website": "",
+      "pis": "Hein van Marle",
+      "leads": "Ploon de Potter",
+      "members": "Dorottya Iványi",
       "keywords": [
-        "Sleep disorders",
+        "PTSD",
         "clinical trial",
-        "EEG"
+        "closed loop auditory stimulation"
+      ]
+    },
+    {
+      "title": "NICHY",
+      "logo": "assets/logos/NICHYlogo.png",
+      "website": "https://nichy-consortium.github.io/nichy/",
+      "pis": "Ysbrand van der Werf",
+      "leads": "Eva van Heese, Keetje Voogd",
+      "members": "Jari Gool, Niels de Joode",
+      "keywords": [
+        "narcolepsy",
+        "consortium",
+        "MRI",
+        "big data"
       ]
     },
     {
       "title": "ENIGMA-PD",
       "logo": "assets/logos/enigma_logo.png",
       "website": "https://enigma-infra.github.io/ENIGMA-PD/",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
+      "pis": "Ysbrand van der Werf",
+      "leads": "Max Laansma, Eva van Heese, Emile d'Angremont, Eloise van Alphen",
+      "members": "",
       "keywords": [
         "Parkinson's disease",
+        "consortium",
+        "MRI",
+        "big data"
+      ]
+    },
+    {
+      "title": "ENIGMA-OCD",
+      "logo": "assets/logos/enigma_logo.png",
+      "website": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/",
+      "pis": "Odile van den Heuvel, Chris Vriend",
+      "leads": "Nadža Džinalija",
+      "members": "",
+      "keywords": [
+        "Obsessive compulsive disorder",
         "consortium",
         "MRI",
         "big data"
@@ -99,9 +101,9 @@
       "title": "ENIGMA-Tremor",
       "logo": "assets/logos/enigma_logo.png",
       "website": "https://enigma-infra.github.io/ENIGMA-Tremor/",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
+      "pis": "Max Laansma",
+      "leads": "",
+      "members": "",
       "keywords": [
         "Essential tremor",
         "consortium",
@@ -110,12 +112,100 @@
       ]
     },
     {
-      "title": "ENIGMA-OCD",
-      "logo": "assets/logos/enigma_logo.png",
-      "website": "https://psychiatryamsterdam.nl/projecten/enigma-ocd/",
-      "pis": "Odile van den Heuvel",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
+      "title": "T-PAD",
+      "logo": "assets/logos/Logo_T-PAD_withtext.jpg",
+      "website": "https://www.t-pad.nl",
+      "pis": "Neeltje Batelaan, Sophie Fitzsimmons",
+      "leads": "",
+      "members": "Odile van den Heuvel, Ysbrand van der Werf",
+      "keywords": []
+    },
+    {
+      "title": "NESCIO-PD",
+      "logo": "assets/logos/NESCIO-logo-wp.jpg",
+      "website": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": [
+        "Parkinson's disease",
+        "clinical trial",
+        "rTMS"
+      ]
+    },
+    {
+      "title": "REMIND",
+      "logo": "assets/logos/REMIND_logo.png",
+      "website": "",
+      "pis": "Ysbrand van der Werf, Karin van Dijk, Odile van den Heuvel, Evelien Lemstra",
+      "leads": "Max Laansma, Eva van Heese",
+      "members": "Roos van Oeveren",
+      "keywords": [
+        "Parkinson's disease, Dementia with Lewy Bodies, REM Sleep behaviour disorder",
+        "observational study",
+        "MRI",
+        "7T"
+      ]
+    },
+    {
+      "title": "ProPark",
+      "logo": "assets/logos/ProPark_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "Max Laansma, Emile d'Angremont, Eva van Heese",
+      "keywords": [
+        "Parkinson's disease",
+        "observational study",
+        "MRI"
+      ]
+    },
+    {
+      "title": "TIPICCO",
+      "logo": "assets/logos/TIPICCO_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": [
+        "Obsessive compulsive disorder",
+        "clinical trial",
+        "rTMS",
+        "MRI"
+      ]
+    },
+    {
+      "title": "TBIDE",
+      "logo": "assets/logos/TBIDE_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": [
+        "Bipolar disorder",
+        "clinical trial",
+        "rTMS"
+      ]
+    },
+    {
+      "title": "ARRIBA",
+      "logo": "assets/logos/ARRIBA_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": [
+        "Obsessive compulsive disorder",
+        "clinical trial"
+      ]
+    },
+    {
+      "title": "Global OCD",
+      "logo": "assets/logos/GlobalOCD_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
       "keywords": [
         "Obsessive compulsive disorder",
         "consortium",
@@ -124,16 +214,15 @@
       ]
     },
     {
-      "title": "NICHY",
-      "logo": "assets/logos/NICHYlogo.png",
-      "website": "https://nichy-consortium.github.io/nichy/",
-      "pis": "PI Name",
-      "leads": "Project Lead",
-      "members": "Team member 1, Team member 2",
+      "title": "MEGA-OCD",
+      "logo": "assets/logos/MEGA-OCD_logo.png",
+      "website": "https://laborit-studie.nl",
+      "pis": "Eric van Exel",
+      "leads": "Lilian Bot",
+      "members": "",
       "keywords": [
-        "Narcolepsy",
-        "consortium",
-        "MRI"
+        "Obsessive compulsive disorder",
+        "clinical trial"
       ]
     }
   ]
