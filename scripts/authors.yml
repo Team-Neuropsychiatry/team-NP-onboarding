@@ -1,4 +1,25 @@
 # List every lab member whose publications should appear on the site.
+# "name" is used as a fallback match (family name + first initial) to bold
+# lab authors when a Crossref record doesn't include their ORCID iD.
+# Find ORCID iDs at https://orcid.org (format: 0000-0000-0000-0000)
+
+# Used as a polite User-Agent when querying the Crossref API (recommended,
+# not required) — replace with a real lab contact address.
+contact_email: "lab-website@amsterdamumc.nl"
+
+
+authors:
+  - name: "Chris Vriend"
+    orcid: "0000-0003-3111-1304"
+  - name: "Emile d'Angremont"
+    orcid: "0000-0002-5468-8811"
+  - name: "Odile van den Heuvel"
+    orcid: "0000-0002-9804-7653"
+  - name: "Ysbrand van der Werf"
+    orcid: "0000-0003-2370-9584"
+  # - name: "Add more lab members here"
+  #   orcid: "0000-0000-0000-0000"
+# List every lab member whose publications should appear on the site.
 # "name" is used as a fallback display label; ORCID's own author list on
 # each work is what actually gets shown in the citation.
 # Find ORCID iDs at https://orcid.org (format: 0000-0000-0000-0000)

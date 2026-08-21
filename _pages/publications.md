@@ -4,30 +4,175 @@ title: Publications
 permalink: /publications/
 ---
 
-{% assign pubs_by_year = site.data.publications | group_by: "year" %}
-{% assign pubs_by_year = pubs_by_year | sort: "name" | reverse %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 
-{% for year_group in pubs_by_year %}
-  <h2>{{ year_group.name }}</h2>
-  <ul class="publication-list">
-    {% for pub in year_group.items %}
-      <li class="publication-item">
-        {% if pub.url %}
-          <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
-        {% else %}
-          <strong>{{ pub.title }}</strong>
-        {% endif %}
-        {% if pub.venue %}
-          <br><em>{{ pub.venue }}</em>
-        {% endif %}
-        {% if pub.lab_authors %}
-          <br><span class="pub-lab-authors">Lab authors: {{ pub.lab_authors | join: ", " }}</span>
-        {% endif %}
-      </li>
+<style>
+  /* Scoped to .labpubs- so this never leaks into the rest of the site's theme */
+  .labpubs-wrap {
+    --labpubs-paper: #fbfaf6;
+    --labpubs-ink: #1a1a18;
+    --labpubs-ink-soft: #58564d;
+    --labpubs-rule: #e1ded0;
+    --labpubs-accent: #2f4a3d;
+    --labpubs-accent-tint: #eaf0ec;
+
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--labpubs-ink);
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 5rem;
+  }
+
+  .labpubs-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--labpubs-rule);
+  }
+
+  .labpubs-eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--labpubs-accent);
+    margin: 0 0 0.6rem;
+  }
+
+  .labpubs-header h1 {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0 0 0.5rem;
+    color: var(--labpubs-ink);
+  }
+
+  .labpubs-header p {
+    font-size: 0.95rem;
+    color: var(--labpubs-ink-soft);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .labpubs-year-group {
+    margin-bottom: 2.75rem;
+  }
+
+  .labpubs-year-label {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--labpubs-accent);
+    background: var(--labpubs-accent-tint);
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+    border-radius: 3px;
+    margin-bottom: 1.1rem;
+  }
+
+  .labpubs-entry {
+    position: relative;
+    padding: 1.1rem 0 1.1rem 1.15rem;
+    border-left: 2px solid var(--labpubs-rule);
+    margin-bottom: 0.15rem;
+    transition: border-color 0.15s ease;
+  }
+
+  .labpubs-entry:hover {
+    border-left-color: var(--labpubs-accent);
+  }
+
+  .labpubs-entry-title {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 1.22rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 0.45rem;
+  }
+
+  .labpubs-entry-title a {
+    color: var(--labpubs-ink);
+    text-decoration: none;
+    background-image: linear-gradient(var(--labpubs-accent), var(--labpubs-accent));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.2s ease;
+  }
+
+  .labpubs-entry-title a:hover {
+    background-size: 100% 1px;
+  }
+
+  .labpubs-citation {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--labpubs-ink-soft);
+    max-width: 40rem;
+  }
+
+  .labpubs-citation strong {
+    color: var(--labpubs-ink);
+    font-weight: 700;
+  }
+
+  .labpubs-citation em {
+    font-style: italic;
+  }
+
+  .labpubs-citation a {
+    color: var(--labpubs-accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .labpubs-citation a:hover {
+    border-bottom-color: var(--labpubs-accent);
+  }
+
+  .labpubs-empty {
+    font-size: 0.95rem;
+    color: var(--labpubs-ink-soft);
+    padding: 2rem 0;
+  }
+
+  @media (max-width: 600px) {
+    .labpubs-header h1 { font-size: 1.7rem; }
+    .labpubs-entry-title { font-size: 1.08rem; }
+  }
+</style>
+
+<div class="labpubs-wrap">
+  <div class="labpubs-header">
+    <p class="labpubs-eyebrow">Lab Publications</p>
+    <h1>Recent Publications</h1>
+    <p>Automatically synced from ORCID &middot; showing the last 5 years. Lab authors are shown in <strong>bold</strong>.</p>
+  </div>
+
+  {% assign pubs_by_year = site.data.publications | group_by: "year" %}
+  {% assign pubs_by_year = pubs_by_year | sort: "name" | reverse %}
+
+  {% if site.data.publications and site.data.publications.size > 0 %}
+    {% for year_group in pubs_by_year %}
+      <div class="labpubs-year-group">
+        <span class="labpubs-year-label">{{ year_group.name }}</span>
+        {% for pub in year_group.items %}
+          <div class="labpubs-entry">
+            <h2 class="labpubs-entry-title">
+              {% if pub.url %}
+                <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+              {% else %}
+                {{ pub.title }}
+              {% endif %}
+            </h2>
+            <p class="labpubs-citation">{{ pub.citation_html }}</p>
+          </div>
+        {% endfor %}
+      </div>
     {% endfor %}
-  </ul>
-{% endfor %}
-
-{% if site.data.publications == empty or site.data.publications == nil %}
-  <p>Publications will appear here once the automated ORCID sync has run.</p>
-{% endif %}
+  {% else %}
+    <p class="labpubs-empty">Publications will appear here once the automated ORCID sync has run.</p>
+  {% endif %}
+</div>
