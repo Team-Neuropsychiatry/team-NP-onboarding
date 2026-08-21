@@ -173,7 +173,8 @@
 <div class="projects-container">
   <h3>Projects</h3>
   <div class="projects-grid">
-    {% for project in site.data.projects-data.projects %}
+    {% assign sorted_projects = site.data.projects-data.projects | sort: "title" %}
+    {% for project in sorted_projects %}
       <div class="project-card">
         <a href="{{ project.website }}" class="project-logo-link" target="_blank" rel="noopener noreferrer">
           <img src="{{ site.baseurl }}/{{ project.logo }}" alt="{{ project.title }}" class="project-logo">
