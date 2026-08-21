@@ -51,12 +51,9 @@ Any project using task-based or resting-state fMRI data. This is normally the fi
 | Raw MRI data in BIDS format | Preprocessed BOLD and anatomical images, confound files, HTML QC report per subject |
 
 **Guide**
-[fMRIPrep protocol (SharePoint, Amsterdam UMC account required)](SHAREPOINT_LINK_PLACEHOLDER)
+[fMRIPrep page](https://fmriprep.org/en/stable/)
 
-{: .notice--warning}
-**Documentation placeholder.** _Add an example QC report screenshot and a short note on what "good" vs "flagged" output looks like here._
 
-<!-- IMAGE PLACEHOLDER: fMRIPrep QC report example -->
 
 ---
 
@@ -73,12 +70,8 @@ Any project needing cortical thickness, surface area, or subcortical volume meas
 | T1-weighted anatomical scan (often run alongside fMRIPrep) | Segmented cortical/subcortical surfaces, region-level volume and thickness tables |
 
 **Guide**
-[FreeSurfer protocol (SharePoint, Amsterdam UMC account required)](SHAREPOINT_LINK_PLACEHOLDER)
+[FreeSurfer page ](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferBeginnersGuide)
 
-{: .notice--warning}
-**Documentation placeholder.** _Add a screenshot of a FreeSurfer segmentation (e.g. in freeview) and an example output table here._
-
-<!-- IMAGE PLACEHOLDER: FreeSurfer segmentation example -->
 
 ---
 
@@ -97,12 +90,9 @@ Once fMRIPrep preprocessing is complete and you want to test for task-related ac
 | fMRIPrep-preprocessed functional data | Subject-level and group-level statistical maps |
 
 **Guide**
-[HALFpipe protocol (SharePoint, Amsterdam UMC account required)](SHAREPOINT_LINK_PLACEHOLDER)
+[HALFpipe page ](https://enigma.ini.usc.edu/protocols/functional-protocols/)
 
-{: .notice--warning}
-**Documentation placeholder.** _Add screenshots of the HALFpipe setup steps and an example group result map here._
 
-<!-- IMAGE PLACEHOLDER: HALFpipe setup and output example -->
 
 ---
 
@@ -119,12 +109,8 @@ Whole-brain, exploratory structural comparisons between groups (for example pati
 | T1-weighted anatomical scans | Voxel-wise statistical maps (e.g. t-maps, corrected for multiple comparisons) |
 
 **Guide**
-[VBM protocol (SharePoint, Amsterdam UMC account required)](SHAREPOINT_LINK_PLACEHOLDER)
+[VBM info](https://sites.google.com/view/enigmavbm)
 
-{: .notice--warning}
-**Documentation placeholder.** _Add an example VBM statistical map and a short note on the correction method used here._
-
-<!-- IMAGE PLACEHOLDER: VBM group result example -->
 
 ---
 
@@ -140,18 +126,10 @@ When you have a clear anatomical hypothesis about specific regions, or want to c
 |---|---|
 | Region-level volume, thickness, or other summary tables (often from FreeSurfer) | Region-level effect estimates and posterior distributions, model summaries |
 
-**Guide**
-[RBA methodology and protocol (SharePoint, Amsterdam UMC account required)](SHAREPOINT_LINK_PLACEHOLDER)
 
-{: .notice--warning}
-**Documentation placeholder.** _Add an example posterior plot and a short explanation of how to interpret it here._
-
-<!-- IMAGE PLACEHOLDER: RBA posterior distribution example -->
 
 ---
 
-## Adding to this page
 
-If you set up or run a new type of analysis, please add it here in the same format (what it is, when to use it, inputs and outputs, guide link, documentation). Replace the placeholder comments above with actual screenshots or short example files, and swap in the real SharePoint links once available, so the page stays useful for the next student.
 
 [Back to Resources](./resources.md)
