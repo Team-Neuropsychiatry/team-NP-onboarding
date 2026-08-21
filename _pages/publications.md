@@ -106,19 +106,24 @@ permalink: /publications/
     background-size: 100% 1px;
   }
 
-  .labpubs-citation {
+  .labpubs-authors {
     font-size: 0.9rem;
     line-height: 1.6;
     color: var(--labpubs-ink-soft);
     max-width: 40rem;
+    margin: 0 0 0.3rem;
   }
 
-  .labpubs-citation strong {
+  .labpubs-authors strong {
     color: var(--labpubs-ink);
     font-weight: 700;
   }
 
-  .labpubs-citation em {
+  .labpubs-citation {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--labpubs-ink-soft);
+    max-width: 40rem;
     font-style: italic;
   }
 
@@ -126,6 +131,7 @@ permalink: /publications/
     color: var(--labpubs-accent);
     text-decoration: none;
     border-bottom: 1px solid transparent;
+    font-style: normal;
   }
 
   .labpubs-citation a:hover {
@@ -167,7 +173,18 @@ permalink: /publications/
                 {{ pub.title }}
               {% endif %}
             </h2>
-            <p class="labpubs-citation">{{ pub.citation_html }}</p>
+
+            {% if pub.authors %}
+              <p class="labpubs-authors">
+                {% for author in pub.authors %}
+                  {% if author.lab_member %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
+                {% endfor %}
+              </p>
+            {% endif %}
+
+            <p class="labpubs-citation">
+              {% if pub.journal %}{{ pub.journal }}{% endif %}{% if pub.citation_html %} &middot; {{ pub.citation_html }}{% endif %}
+            </p>
           </div>
         {% endfor %}
       </div>
