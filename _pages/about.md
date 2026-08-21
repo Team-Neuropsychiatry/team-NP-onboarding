@@ -84,6 +84,8 @@ The team functions at the intersection of Psychiatry, Anatomy & Neuroscience, an
 <p style="margin-top: 10px; font-weight: 600;">NICHY</p>
 </div>
 
+Read more about the team in our last newsletter (can only be accessed by team members?): *link to sharepoint: https://amsterdamumc.sharepoint.com/sites/Div5_TeamNeuropsychiatry_SWG/Gedeelde%20documenten/Forms/AllItems.aspx?viewid=c4105faa%2D055b%2D4d8d%2Dbf54%2D30ca6e6fcc49&id=%2Fsites%2FDiv5%5FTeamNeuropsychiatry%5FSWG%2FGedeelde%20documenten%2FGeneral%2FNewsletters%2FNewsletter%202025%20Team%20Neuropsychiatry%2Epdf&parent=%2Fsites%2FDiv5%5FTeamNeuropsychiatry%5FSWG%2FGedeelde%20documenten%2FGeneral%2FNewsletters* 
+
 <img src="{{ site.baseurl }}/assets/photos/group_picture_retreat_2026.jpg" alt="Team NP group photo" style="width: 100%; max-width: 700px; border-radius: 8px; margin: 20px 0;">
 
   
