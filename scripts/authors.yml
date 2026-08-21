@@ -17,6 +17,28 @@ authors:
     orcid: "0000-0002-9804-7653"
   - name: "Ysbrand van der Werf"
     orcid: "0000-0003-2370-9584"
+  - name: "Keetje Voogd"
+    orcid: "0009-0004-1393-9241"
+  - name: "Tim van Balkom"
+    orcid: "0000-0002-6643-2776"
+  - name: "Willem Bruin"
+    orcid: "0000-0002-0672-8903"
+  - name: "Eva Oostra"
+    orcid: "0009-0008-2534-8800"
+  - name: "Coen Coomans"
+    orcid: "0009-0002-3798-7980"
+  - name: "Eva van Heese"
+    orcid: "0000-0002-1954-5014"
+  - name: "Leonardo Nacci"
+    orcid: "0009-0000-1453-3228"
+  - name: "Jari Gool"
+    orcid: "0000-0001-7480-7841"
+  - name: "Roos van Oeveren"
+    orcid: "0009-0000-4239-5221"
+  - name: "Sophie Fitzsimmons"
+    orcid: "0000-0002-7216-4958"
+    
+
   # - name: "Add more lab members here"
   #   orcid: "0000-0000-0000-0000"
 # List every lab member whose publications should appear on the site.
@@ -24,10 +46,5 @@ authors:
 # each work is what actually gets shown in the citation.
 # Find ORCID iDs at https://orcid.org (format: 0000-0000-0000-0000)
 
-authors:
-  - name: "Chris Vriend"
-    orcid: "0000-0003-3111-1304"
-  - name: "Emile d'Angremont"
-    orcid: "0000-0002-5468-8811"
   # - name: "Add more lab members here"
   #   orcid: "0000-0000-0000-0000"

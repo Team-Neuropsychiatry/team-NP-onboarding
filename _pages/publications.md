@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: single
 title: Publications
 permalink: /publications/
+toc: true
+toc_sticky: true
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -106,19 +108,19 @@ permalink: /publications/
     background-size: 100% 1px;
   }
 
-  .labpubs-citation {
+  .labpubs-authors {
     font-size: 0.9rem;
     line-height: 1.6;
     color: var(--labpubs-ink-soft);
     max-width: 40rem;
+    margin: 0 0 0.3rem;
   }
 
-  .labpubs-citation strong {
-    color: var(--labpubs-ink);
-    font-weight: 700;
-  }
-
-  .labpubs-citation em {
+  .labpubs-citation {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--labpubs-ink-soft);
+    max-width: 40rem;
     font-style: italic;
   }
 
@@ -126,6 +128,7 @@ permalink: /publications/
     color: var(--labpubs-accent);
     text-decoration: none;
     border-bottom: 1px solid transparent;
+    font-style: normal;
   }
 
   .labpubs-citation a:hover {
@@ -148,7 +151,7 @@ permalink: /publications/
   <div class="labpubs-header">
     <p class="labpubs-eyebrow">Lab Publications</p>
     <h1>Recent Publications</h1>
-    <p>Automatically synced from ORCID &middot; showing the last 5 years. Lab authors are shown in <strong>bold</strong>.</p>
+    <p>Automatically synced from ORCID &middot; showing the last 5 years.</p>
   </div>
 
   {% assign pubs_by_year = site.data.publications | group_by: "year" %}
@@ -167,7 +170,18 @@ permalink: /publications/
                 {{ pub.title }}
               {% endif %}
             </h2>
-            <p class="labpubs-citation">{{ pub.citation_html }}</p>
+
+            {% if pub.authors %}
+              <p class="labpubs-authors">
+                {% for author in pub.authors %}
+                  {{ author.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
+                {% endfor %}
+              </p>
+            {% endif %}
+
+            <p class="labpubs-citation">
+              {% if pub.journal %}{{ pub.journal }}{% endif %}{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.issue %}, no. {{ pub.issue }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.citation_html %} &middot; {{ pub.citation_html }}{% endif %}
+            </p>
           </div>
         {% endfor %}
       </div>

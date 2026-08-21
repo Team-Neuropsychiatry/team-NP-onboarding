@@ -4,7 +4,7 @@ Fetch publications for a list of authors from the ORCID public API,
 enrich them with full citation data (author list, journal, volume/issue/
 pages) from Crossref via each work's DOI, and write the result to a
 Jekyll _data file (_data/publications.yml).
- 
+
 Only publications from the last YEARS_TO_KEEP years are kept.
 
 Usage:
@@ -133,27 +133,19 @@ def initials_from_given_name(given_name):
     return "".join(out)
 
 
-def crossref_author_orcid(author_entry):
-    orcid_url = author_entry.get("ORCID")
-    if not orcid_url:
-        return None
-    # Crossref returns e.g. "http://orcid.org/0000-0002-1825-0097"
-    match = re.search(r"(\d{4}-\d{4}-\d{4}-\d{3}[\dX])", orcid_url)
-    return match.group(1) if match else None
-
-
-def is_lab_author(author_entry, lab_orcids, lab_names):
-    orcid = crossref_author_orcid(author_entry)
-    if orcid and orcid in lab_orcids:
-        return True
-    family = (author_entry.get("family") or "").strip().lower()
-    given = (author_entry.get("given") or "").strip().lower()
-    if not family:
-        return False
-    for lab_family, lab_given_initial in lab_names:
-        if family == lab_family and (not lab_given_initial or given.startswith(lab_given_initial)):
-            return True
-    return False
+def extract_authors(crossref_authors):
+    """All authors on the paper (lab members and outside collaborators
+    alike), formatted as 'Family, Initials'. Organizations/collaborations
+    without a family name are skipped."""
+    names = []
+    for a in crossref_authors or []:
+        family = a.get("family")
+        if not family:
+            continue
+        initials = initials_from_given_name(a.get("given", ""))
+        display = f"{family}, {initials}".strip().rstrip(",")
+        names.append({"name": display})
+    return names
 
 
 def fetch_crossref_metadata(doi, contact_email):
@@ -167,35 +159,11 @@ def fetch_crossref_metadata(doi, contact_email):
     return data["message"]
 
 
-def format_apa_authors(authors, lab_orcids, lab_names):
-    """Returns (authors_html, any_lab_author_found)."""
-    if not authors:
-        return "", False
-
-    parts = []
-    any_lab = False
-    for a in authors:
-        family = a.get("family")
-        if not family:
-            continue  # skip organizations/collaborations without a family name
-        initials = initials_from_given_name(a.get("given", ""))
-        display = f"{family}, {initials}".strip().rstrip(",")
-        lab_flag = is_lab_author(a, lab_orcids, lab_names)
-        any_lab = any_lab or lab_flag
-        parts.append(f"<strong>{display}</strong>" if lab_flag else display)
-
-    if not parts:
-        return "", False
-    if len(parts) == 1:
-        return parts[0], any_lab
-    if len(parts) == 2:
-        return f"{parts[0]} &amp; {parts[1]}", any_lab
-    return f"{', '.join(parts[:-1])}, &amp; {parts[-1]}", any_lab
-
-
-def build_citation_html(crossref_msg, fallback_journal, fallback_year, doi, lab_orcids, lab_names):
-    authors = crossref_msg.get("author", []) if crossref_msg else []
-    authors_html, any_lab = format_apa_authors(authors, lab_orcids, lab_names)
+def extract_metadata(crossref_msg, fallback_journal, fallback_year):
+    """Pulls structured fields (authors, year, journal, volume, issue,
+    pages) out of a Crossref work record, falling back to whatever ORCID
+    already gave us where Crossref doesn't have it."""
+    authors = extract_authors(crossref_msg.get("author") if crossref_msg else None)
 
     year = fallback_year
     if crossref_msg:
@@ -215,30 +183,14 @@ def build_citation_html(crossref_msg, fallback_journal, fallback_year, doi, lab_
     issue = crossref_msg.get("issue") if crossref_msg else None
     pages = crossref_msg.get("page") if crossref_msg else None
 
-    bits = []
-    if authors_html:
-        bits.append(authors_html)
-    year_str = f"({year})." if year else "(n.d.)."
-    bits.append(year_str)
-
-    journal_bits = []
-    if journal:
-        if volume:
-            vol_issue = f"<em>{journal}</em>, {volume}"
-            if issue:
-                vol_issue += f"({issue})"
-        else:
-            vol_issue = f"<em>{journal}</em>"
-        journal_bits.append(vol_issue)
-    if pages:
-        journal_bits.append(pages)
-    if journal_bits:
-        bits.append(", ".join(journal_bits) + ".")
-
-    if doi:
-        bits.append(f'<a href="https://doi.org/{doi}" target="_blank" rel="noopener">https://doi.org/{doi}</a>')
-
-    return " ".join(bits), year, journal, any_lab
+    return {
+        "authors": authors,
+        "year": year,
+        "journal": journal,
+        "volume": volume,
+        "issue": issue,
+        "pages": pages,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -259,25 +211,8 @@ def load_lab_config():
     return authors, contact_email
 
 
-def build_lab_name_index(authors):
-    """('Jane Doe') -> ('doe', 'j')  used as a fallback match when ORCID
-    isn't present on the Crossref author record."""
-    index = []
-    for a in authors:
-        name = (a.get("name") or "").strip()
-        if not name:
-            continue
-        tokens = name.split()
-        family = tokens[-1].lower()
-        given_initial = tokens[0][0].lower() if tokens[0] else ""
-        index.append((family, given_initial))
-    return index
-
-
 def main():
     authors_cfg, contact_email = load_lab_config()
-    lab_orcids = {a["orcid"] for a in authors_cfg if a.get("orcid")}
-    lab_names = build_lab_name_index(authors_cfg)
 
     all_works = []
     for author in authors_cfg:
@@ -308,11 +243,9 @@ def main():
             continue
 
         crossref_msg = fetch_crossref_metadata(work["doi"], contact_email) if work["doi"] else None
-        citation_html, year, journal, any_lab = build_citation_html(
-            crossref_msg, work["journal"], work["year"], work["doi"], lab_orcids, lab_names
-        )
+        meta = extract_metadata(crossref_msg, work["journal"], work["year"])
 
-        if not year or year < cutoff_year:
+        if not meta["year"] or meta["year"] < cutoff_year:
             continue
 
         title = work["title"]
@@ -323,8 +256,13 @@ def main():
 
         publications.append({
             "title": title,
-            "year": year,
-            "citation_html": citation_html,
+            "year": meta["year"],
+            "authors": meta["authors"],
+            "journal": meta["journal"],
+            "volume": meta["volume"],
+            "issue": meta["issue"],
+            "pages": meta["pages"],
+            "doi": work["doi"],
             "url": url,
         })
 
