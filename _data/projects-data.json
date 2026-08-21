@@ -8,9 +8,18 @@
       "leads": "",
       "members": "",
       "keywords": [
-        "Obsessive compulsive disorder",
+        "obsessive compulsive disorder",
         "clinical trial"
       ]
+    },
+    {
+      "title": "BITSO",
+      "logo": "assets/logos/BITSO_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": []
     },
     {
       "title": "D-DOTT",
@@ -20,7 +29,7 @@
       "leads": "",
       "members": "",
       "keywords": [
-        "Depression",
+        "depression",
         "clinical trial",
         "rTMS",
         "MRI"
@@ -34,7 +43,7 @@
       "leads": "Nadža Džinalija",
       "members": "",
       "keywords": [
-        "Obsessive compulsive disorder",
+        "obsessive compulsive disorder",
         "consortium",
         "MRI",
         "big data"
@@ -62,7 +71,7 @@
       "leads": "",
       "members": "",
       "keywords": [
-        "Essential tremor",
+        "essential tremor",
         "consortium",
         "MRI",
         "big data"
@@ -76,10 +85,22 @@
       "leads": "",
       "members": "",
       "keywords": [
-        "Obsessive compulsive disorder",
+        "obsessive compulsive disorder",
         "consortium",
         "MRI",
         "big data"
+      ]
+    },
+    {
+      "title": "Laborit",
+      "logo": "assets/logos/Laborit_logo.png",
+      "website": "https://laborit-studie.nl",
+      "pis": "Eric van Exel",
+      "leads": "Lilian Bot",
+      "members": "",
+      "keywords": [
+        "catatonia",
+        "clinical trial"
       ]
     },
     {
@@ -90,10 +111,21 @@
       "leads": "",
       "members": "",
       "keywords": [
-        "Long-Covid",
+        "long-covid",
         "clinical trial",
         "rTMS",
         "MRI"
+      ]
+    },
+    {
+      "title": "MEGA-OCD",
+      "logo": "assets/logos/MEGA-OCD_logo.png",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": [
+        "obsessive compulsive disorder"
       ]
     },
     {
@@ -127,7 +159,7 @@
       "title": "ProPark",
       "logo": "assets/logos/ProPark_logo.png",
       "website": "",
-      "pis": "",
+      "pis": "Chris Vriend",
       "leads": "",
       "members": "Max Laansma, Emile d'Angremont, Eva van Heese",
       "keywords": [
@@ -145,8 +177,8 @@
       "members": "Roos van Oeveren",
       "keywords": [
         "Parkinson's disease",
-        "Dementia with Lewy Bodies",
-        "REM Sleep behaviour disorder",
+        "dementia with lewy bodies",
+        "rem sleep behaviour disorder",
         "observational study",
         "MRI",
         "7T"
@@ -160,7 +192,7 @@
       "leads": "Ploon de Potter",
       "members": "Dorottya Iványi",
       "keywords": [
-        "PTSD",
+        "ptsd",
         "clinical trial",
         "closed loop auditory stimulation"
       ]
@@ -182,7 +214,7 @@
       "leads": "",
       "members": "",
       "keywords": [
-        "Bipolar disorder",
+        "bipolar disorder",
         "clinical trial",
         "rTMS"
       ]
@@ -190,12 +222,12 @@
     {
       "title": "TETRO",
       "logo": "assets/logos/Logo_Tetro.jpg",
-      "website": "https://www.tetro-ocd.nl",
+      "website": "",
       "pis": "Odile van den Heuvel",
       "leads": "Tjardo Postma, Wianne Schipper",
       "members": "",
       "keywords": [
-        "Obsessive compulsive disorder",
+        "obsessive compulsive disorder",
         "clinical trial",
         "rTMS",
         "MRI"
@@ -209,23 +241,10 @@
       "leads": "",
       "members": "",
       "keywords": [
-        "Obsessive compulsive disorder",
+        "obsessive compulsive disorder",
         "clinical trial",
         "rTMS",
         "MRI"
-      ]
-    },
-    {
-      "title": "MEGA-OCD",
-      "logo": "assets/logos/MEGA-OCD_logo.png",
-      "website": "https://laborit-studie.nl",
-      "pis": "Eric van Exel",
-      "leads": "Lilian Bot",
-      "members": "",
-      "keywords": [
-        "Obsessive compulsive disorder",
-        "Catatonia",
-        "clinical trial"
       ]
     }
   ]
