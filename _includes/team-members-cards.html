@@ -1,0 +1,113 @@
+<style>
+  .team-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .team-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .team-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .team-card-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background: #e8e8e8;
+  }
+
+  .team-card-content {
+    padding: 24px;
+  }
+
+  .team-card-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+  }
+
+  .team-card-link {
+    font-size: 13px;
+    color: #0066cc;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+    word-break: break-all;
+  }
+
+  .team-card-link:hover {
+    text-decoration: underline;
+  }
+
+  .team-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .team-tag {
+    display: inline-block;
+    font-size: 12px;
+    padding: 6px 12px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+
+  .team-tag:hover {
+    background: #e0e0e0;
+    text-decoration: none;
+  }
+
+  .team-tag-link {
+    color: #0066cc;
+    font-weight: 500;
+  }
+
+  .team-tag-link:hover {
+    color: #0052a3;
+  }
+
+  @media (max-width: 600px) {
+    .team-cards-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="team-cards-grid">
+  {% for person in site.data.team-members-data.people %}
+    <div class="team-card">
+      <img src="{{ person.image }}" alt="{{ person.name }}" class="team-card-image">
+      <div class="team-card-content">
+        <div class="team-card-name">{{ person.name }}</div>
+        <a href="{{ person.website }}" class="team-card-link">{{ person.website }}</a>
+        {% if person.projects %}
+          <div class="team-card-tags">
+            {% for project in person.projects %}
+              {% if project.url %}
+                <a href="{{ project.url }}" class="team-tag team-tag-link">{{ project.name }}</a>
+              {% else %}
+                <span class="team-tag">{{ project.name }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
