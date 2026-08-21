@@ -1,0 +1,19 @@
+{
+  "people": [
+    {
+      "name": "Odile van Den Heuvel",
+      "website": "https://alice.dev",
+      "image": "assets/photos/headshots/Odile_vandenHeuvel.jpg",
+      "projects": [
+        {
+          "name": "Tetro",
+          "url": "https://www.tetro-ocd.nl/"
+        },
+        {
+          "name": "D-DOTT",
+          "url": "https://ddott.nl/"
+        }
+      ]
+    }
+  ]
+}
