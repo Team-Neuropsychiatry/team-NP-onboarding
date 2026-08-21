@@ -54,7 +54,7 @@
     {
       "role": "Seniors",
       "name": "Tim van Balkom",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/tim-van-balkom/",
       "image": "assets/photos/headshots/Tim_vanBalkom.jpg",
       "projects": []
     },
@@ -103,8 +103,8 @@
     {
       "role": "Postdocs",
       "name": "Willem Bruin",
-      "website": "https://pure.amsterdamumc.nl/en/persons/willem-bruin/",
-      "image": "assets/photos/headshots/Willem_Bruin.jpg",
+      "website": "https://willembruin.nl",
+      "image": "assets/photos/headshots/Willem_Benjamin_Bruin.png",
       "projects": []
     },
     {
@@ -167,13 +167,13 @@
       "role": "PhD students",
       "name": "Ploon de Potter",
       "website": "https://pure.amsterdamumc.nl/en/persons/ploon-de-potter/",
-      "image": "assets/photos/headshots/Ploon_dePotter.jpg",
+      "image": "assets/photos/headshots/Ploon_dePotter.png",
       "projects": []
     },
     {
       "role": "PhD students",
       "name": "Lilian Bot",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/lilian-bot/",
       "image": "assets/photos/headshots/Lilian_Bot.jpg",
       "projects": []
     },
@@ -202,7 +202,7 @@
       "role": "PhD students",
       "name": "Wianne Schipper",
       "website": "",
-      "image": "assets/photos/headshots/Wianne_Schipper.jpg",
+      "image": "assets/photos/headshots/Wianne_Leonore_Schipper.jpg",
       "projects": []
     },
     {
@@ -216,7 +216,7 @@
       "role": "Research assistants",
       "name": "Dorottya Iványi",
       "website": "",
-      "image": "assets/photos/headshots/Dorottya_Ivanyi.jpg",
+      "image": "assets/photos/headshots/Dorottya_Fanni_Ivanyi.jpg",
       "projects": []
     },
     {
@@ -270,9 +270,9 @@
     },
     {
       "role": "Research assistants",
-      "name": "Rustam Houssain",
+      "name": "Rustam Hossain",
       "website": "",
-      "image": "assets/photos/headshots/Rustam_Houssain.jpg",
+      "image": "assets/photos/headshots/Rustam_Hossain.png",
       "projects": []
     },
     {
