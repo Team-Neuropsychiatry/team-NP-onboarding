@@ -16,10 +16,17 @@
       "title": "BITSO",
       "logo": "assets/logos/BITSO_logo.png",
       "website": "",
-      "pis": "",
-      "leads": "",
-      "members": "",
-      "keywords": []
+      "pis": "Odile van den Heuvel",
+      "leads": "Wianne Schipper, Leonardo Nacci",
+      "members": "Rustam Hossain",
+      "keywords": [
+        "obsessive compulsive disorder",
+        "clinical trial",
+        "rTMS",
+        "biotyping",
+        "MRI",
+        "EEG",
+      ]
     },
     {
       "title": "D-DOTT",
@@ -131,14 +138,16 @@
     {
       "title": "NESCIO-PD",
       "logo": "assets/logos/NESCIO-logo-wp.jpg",
-      "website": "",
-      "pis": "",
-      "leads": "",
-      "members": "",
+      "website": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/",
+      "pis": "Tim van Balkom, Odile van den Heuvel, Chris Vriend",
+      "leads": "Chahd el Fassi",
+      "members": "Roos van Oeveren, Eva de Jong, Imke Molenaar, Jiska van Wijk",
       "keywords": [
         "Parkinson's disease",
         "clinical trial",
-        "rTMS"
+        "rTMS",
+        "tDCS",
+        "feasibility trial"
       ]
     },
     {
@@ -222,7 +231,7 @@
     {
       "title": "TETRO",
       "logo": "assets/logos/Logo_Tetro.jpg",
-      "website": "",
+      "website": "https://www.tetro-ocd.nl/",
       "pis": "Odile van den Heuvel",
       "leads": "Tjardo Postma, Wianne Schipper",
       "members": "",
@@ -245,6 +254,20 @@
         "clinical trial",
         "rTMS",
         "MRI"
+      ]
+    },
+    {
+      "title": "Hypersomnia-MRI",
+      "logo": "assets/logos/Hypersomnia-MRI_logo.png",
+      "website": "",
+      "pis": "Ysbrand van der Werf, Thanh Dang-Vu",
+      "leads": "Jari Gool, Eva van Heese, Niels de Joode, Keetje Voogd",
+      "members": "",
+      "keywords": [
+      "narcolepsy",
+      "observational study",
+      "MRI",
+      "EEG"
       ]
     }
   ]
