@@ -16,16 +16,22 @@
       "title": "BITSO",
       "logo": "assets/logos/BITSO_logo.png",
       "website": "",
-      "pis": "Odile van den Heuvel",
-      "leads": "Wianne Schipper, Leonardo Nacci",
-      "members": "Rustam Hossain",
+      "pis": "",
+      "leads": "",
+      "members": "",
+      "keywords": []
+    },
+    {
+      "title": "Covaid",
+      "logo": "assets/logos/CovAID.png",
+      "website": "",
+      "pis": "Jari Gool",
+      "leads": "Keetje Voogd",
+      "members": "",
       "keywords": [
-        "obsessive compulsive disorder",
-        "clinical trial",
-        "rTMS",
-        "biotyping",
-        "MRI",
-        "EEG",
+        "narcolepsy",
+        "multiple sclerosis",
+        "interview study"
       ]
     },
     {
@@ -138,16 +144,14 @@
     {
       "title": "NESCIO-PD",
       "logo": "assets/logos/NESCIO-logo-wp.jpg",
-      "website": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/",
-      "pis": "Tim van Balkom, Odile van den Heuvel, Chris Vriend",
-      "leads": "Chahd el Fassi",
-      "members": "Roos van Oeveren, Eva de Jong, Imke Molenaar, Jiska van Wijk",
+      "website": "",
+      "pis": "",
+      "leads": "",
+      "members": "",
       "keywords": [
         "Parkinson's disease",
         "clinical trial",
-        "rTMS",
-        "tDCS",
-        "feasibility trial"
+        "rTMS"
       ]
     },
     {
@@ -166,8 +170,8 @@
     },
     {
       "title": "ProPark",
-      "logo": "assets/logos/ProPark_logo.png",
-      "website": "",
+      "logo": "assets/logos/propark_logo.png",
+      "website": "https://proparkinson.nl/",
       "pis": "Chris Vriend",
       "leads": "",
       "members": "Max Laansma, Emile d'Angremont, Eva van Heese",
@@ -179,7 +183,7 @@
     },
     {
       "title": "REMIND",
-      "logo": "assets/logos/REMIND_logo.png",
+      "logo": "assets/logos/remind_logo.png",
       "website": "",
       "pis": "Ysbrand van der Werf, Karin van Dijk, Odile van den Heuvel, Evelien Lemstra",
       "leads": "Max Laansma, Eva van Heese",
@@ -231,7 +235,7 @@
     {
       "title": "TETRO",
       "logo": "assets/logos/Logo_Tetro.jpg",
-      "website": "https://www.tetro-ocd.nl/",
+      "website": "",
       "pis": "Odile van den Heuvel",
       "leads": "Tjardo Postma, Wianne Schipper",
       "members": "",
@@ -254,20 +258,6 @@
         "clinical trial",
         "rTMS",
         "MRI"
-      ]
-    },
-    {
-      "title": "Hypersomnia-MRI",
-      "logo": "assets/logos/Hypersomnia-MRI_logo.png",
-      "website": "",
-      "pis": "Ysbrand van der Werf, Thanh Dang-Vu",
-      "leads": "Jari Gool, Eva van Heese, Niels de Joode, Keetje Voogd",
-      "members": "",
-      "keywords": [
-      "narcolepsy",
-      "observational study",
-      "MRI",
-      "EEG"
       ]
     }
   ]
