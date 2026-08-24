@@ -62,7 +62,7 @@
 
   .project-title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     color: #1a1a1a;
     margin-bottom: 12px;
     padding: 0 20px;
@@ -75,7 +75,6 @@
     text-align: left;
     padding: 0 20px;
     line-height: 1.6;
-    min-height: 50px;
     flex-grow: 1;
   }
 
@@ -83,8 +82,11 @@
     font-weight: 600;
     color: #333;
     display: block;
-    margin-bottom: 6px;
-    min-height: 18px;
+    margin-bottom: 4px;
+  }
+
+  .project-team-name:last-child {
+    margin-bottom: 0;
   }
 
   .project-keywords {
@@ -98,6 +100,11 @@
 
   /* Default color for unmapped keywords */
   .project-keyword {
+    display: inline-block;
+    font-size: 9px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 500;
     background: #f0f0f0;
     color: #333;
   }
