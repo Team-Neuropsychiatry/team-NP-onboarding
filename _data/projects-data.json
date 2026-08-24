@@ -105,6 +105,20 @@
       ]
     },
     {
+      "title": "Hypersomnia-MRI",
+      "logo": "assets/logos/logo_hypersomnia_mri_study.png",
+      "website": "",
+      "pis": "Ysbrand van der Werf, Thanh Dang-Vu",
+      "leads": "Jari Gool, Eva van Heese, Niels de Joode, Keetje Voogd",
+      "members": "",
+      "keywords": [
+        "narcolepsy",
+        "observational study",
+        "MRI",
+        "EEG"
+      ]
+    },
+    {
       "title": "Laborit",
       "logo": "assets/logos/Laborit_logo.png",
       "website": "https://laborit-studie.nl",
