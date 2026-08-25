@@ -83,7 +83,8 @@
           "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/ "
         },
         {
-          "name": "ProPark"
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
         }
       ]
     },
@@ -169,7 +170,8 @@
           "url": "https://enigma-infra.github.io/ENIGMA-PD/"
         }, 
         {
-          "name": "ProPark"
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
         }
       ]
     },
@@ -225,7 +227,8 @@
           "url": "https://enigma-infra.github.io/ENIGMA-PD/"
         }, 
         {
-          "name": "ProPark"
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
         }, 
         {
           "name": "REMIND"
@@ -293,7 +296,8 @@
           "url": "https://enigma-infra.github.io/ENIGMA-PD"
         }, 
          {
-          "name": "ProPark"
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
         }, 
          {
           "name": "REMIND"
