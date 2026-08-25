@@ -500,8 +500,11 @@
       "website": "",
       "image": "assets/photos/headshots/Rustam_Hossain.png",
       "projects": [
-         {
+        {
           "name": "BITSO"
+        },
+        {
+          "name": "REMIND"
         }
       ]
     },
