@@ -24,11 +24,11 @@
         },
         {
           "name": "ENIGMA-OCD",
-          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/ "
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/"
         },
         {
           "name": "T-PAD",
-          "url": "www.t-pad.nl"
+          "url": "https://www.t-pad.nl"
         },
         {
           "name": "TMSLA",
@@ -56,7 +56,7 @@
           "url": "https://nichy-consortium.github.io/nichy/"
         },
         {
-          "name": " ENIGMA-PD",
+          "name": "ENIGMA-PD",
           "url": "https://enigma-infra.github.io/ENIGMA-PD/"
         },
         {
@@ -91,7 +91,7 @@
         },
         {
           "name": "ENIGMA-OCD",
-          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/ "
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/"
         },
         {
           "name": "ProPark",
@@ -234,10 +234,13 @@
       "projects": [
            {
           "name": "ENIGMA-OCD",
-          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/ "
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/"
         },
         {
           "name": "BITSO"
+        },
+        {
+          "name": "MEGA-OCD"
         }
       ]
     },
@@ -473,7 +476,7 @@
     {
       "role": "Research assistants",
       "name": "Bruno Moses",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/bruno-moses/",
       "image": "assets/photos/headshots/Bruno_Moses.jpg",
       "projects": []
     },
