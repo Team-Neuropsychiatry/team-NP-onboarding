@@ -11,43 +11,128 @@
           "url": "https://www.tetro-ocd.nl/"
         },
         {
+          "name": "TBIDE",
+          "url": "https://www.t-bide.nl/"
+        },
+        {
           "name": "D-DOTT",
           "url": "https://ddott.nl/"
+        },
+        {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        },
+        {
+          "name": "ENIGMA-OCD",
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/ "
+        },
+        {
+          "name": "T-PAD",
+          "url": "www.t-pad.nl"
+        },
+        {
+          "name": "TMSLA",
+          "url": "https://www.tmsla.nl/"
+        },
+        {
+          "name": "REMIND" 
+        },
+        {
+          "name": "BITSO" 
+        },
+        {
+          "name": "MEGA-OCD"
         }
       ]
     },
     {
       "role": "Co-leads",
       "name": "Ysbrand van der Werf",
-      "website": "",
-      "image": "assets/photos/headshots/Ysbrand_vanderWerf.jpg",
-      "projects": []
+      "website": "https://pure.amsterdamumc.nl/en/persons/ysbrand-van-der-werf/",
+      "image": "assets/photos/headshots/Ysbrand_photo.jpg",
+      "projects": [
+        {
+          "name": "NICHY",
+          "url": "https://nichy-consortium.github.io/nichy/"
+        },
+        {
+          "name": " ENIGMA-PD",
+          "url": "https://enigma-infra.github.io/ENIGMA-PD/"
+        },
+        {
+          "name": "REMIND" 
+        },
+        {
+          "name": "Hypersomnia-MRI"
+          },
+        {
+          "name": "TBIDE",
+          "url": "https://www.t-bide.nl/"
+        },
+        {
+          "name": "T-PAD",
+          "url": "www.t-pad.nl"
+        },
+        {
+          "name": "TMSLA",
+          "url": "https://www.tmsla.nl/"
+        }
+      ]
     },
     {
       "role": "Co-leads",
       "name": "Chris Vriend",
       "website": "https://pure.amsterdamumc.nl/en/persons/chris-vriend/",
       "image": "assets/photos/headshots/Chris_Vriend.jpg",
-      "projects": []
+      "projects": [
+        {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        },
+        {
+          "name": "ENIGMA-OCD",
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/ "
+        },
+        {
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
+        },
+        {
+          "name": "MEGA-OCD"
+        }
+      ]
     },
     {
       "role": "Seniors",
       "name": "Hein van Marle",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/hein-van-marle/",
       "image": "assets/photos/headshots/Hein_vanMarle.jpg",
-      "projects": []
+      "projects": [
+        {
+          "name": "SLEEP-DEEP"
+        }
+      ]
     },
     {
       "role": "Seniors",
       "name": "Eric van Exel",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/eric-van-exel/",
       "image": "assets/photos/headshots/Eric_vanExel.jpg",
-      "projects": []
+      "projects": [
+          {
+          "name": "TBIDE",
+          "url": "https://www.t-bide.nl/"
+        },
+        {
+          "name": "Laborit",
+          "url": "https://laborit-studie.nl"
+        }
+      ]
     },
     {
       "role": "Seniors",
       "name": "Sander Verfaillie",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/sander-verfaillie/",
       "image": "assets/photos/headshots/Sander_Verfaillie.jpg",
       "projects": []
     },
@@ -56,28 +141,53 @@
       "name": "Tim van Balkom",
       "website": "https://pure.amsterdamumc.nl/en/persons/tim-van-balkom/",
       "image": "assets/photos/headshots/Tim_vanBalkom.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        }  
+      ]
     },
     {
       "role": "Seniors",
       "name": "Jari Gool",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/jari-gool/",
       "image": "assets/photos/headshots/Jari_Gool.jpg",
-      "projects": []
+      "projects": [
+        {
+          "name": "NICHY",
+          "url": "https://nichy-consortium.github.io/nichy/"
+        }, 
+        {
+          "name": "Hypersomnia-MRI"
+        }, 
+        {
+          "name": "Covaid"
+        }     
+      ]
     },
     {
       "role": "Seniors",
       "name": "Anders Lillevik Thorsen",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/anders-thorsen/",
       "image": "assets/photos/headshots/Anders_LillevikThorsen.jpg",
       "projects": []
     },
     {
       "role": "Postdocs",
       "name": "Emile d'Angremont",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/emile-dangremont/",
       "image": "assets/photos/headshots/Emile_dAngremont.jpg",
-      "projects": []
+      "projects": [ 
+        {
+          "name": "ENIGMA-PD",
+          "url": "https://enigma-infra.github.io/ENIGMA-PD/"
+        }, 
+        {
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
+        }
+      ]
     },
     {
       "role": "Postdocs",
@@ -91,140 +201,274 @@
       "name": "Niels de Joode",
       "website": "https://pure.amsterdamumc.nl/en/persons/niels-de-joode/",
       "image": "assets/photos/headshots/Niels_deJoode.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "NICHY",
+          "url": "https://nichy-consortium.github.io/nichy/"
+        }, 
+        {
+          "name": "Hypersomnia-MRI"
+        },
+        {
+          "name": "MEGA-OCD"
+        }
+      ]
     },
     {
       "role": "Postdocs",
       "name": "Sophie Fitzsimmons",
       "website": "https://pure.amsterdamumc.nl/en/persons/sophie-fitzsimmons/",
       "image": "assets/photos/headshots/Sophie_Fitzsimmons.jpg",
-      "projects": []
+      "projects": [ 
+        {
+          "name": "T-PAD",
+          "url": "www.t-pad.nl"
+        } 
+      ]
     },
     {
       "role": "Postdocs",
       "name": "Willem Bruin",
       "website": "https://willembruin.nl",
       "image": "assets/photos/headshots/Willem_Benjamin_Bruin.png",
-      "projects": []
+      "projects": [
+           {
+          "name": "ENIGMA-OCD",
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/ "
+        },
+        {
+          "name": "BITSO"
+        }
+      ]
     },
     {
       "role": "Postdocs",
       "name": "Max Laansma",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/max-laansma/",
       "image": "assets/photos/headshots/Max_Laansma.jpg",
-      "projects": []
+      "projects": [ 
+        {
+          "name": "ENIGMA-PD",
+          "url": "https://enigma-infra.github.io/ENIGMA-PD/"
+        }, 
+        {
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
+        }, 
+        {
+          "name": "REMIND"
+        }, 
+        {
+          "name": "ENIGMA-Tremor",
+          "url": "https://enigma-infra.github.io/ENIGMA-Tremor/"
+        }
+      ]
     },
     {
       "role": "Postdocs",
-      "name": "Henne van der Heijden",
+      "name": "Hanne van der Heijden",
       "website": "",
-      "image": "assets/photos/headshots/Henne_vanderHeijden.jpg",
+      "image": "assets/photos/headshots/Hanne_vanderHeijden.jpg",
       "projects": []
     },
     {
       "role": "PhD students",
       "name": "Tjardo Postma",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/tjardo-postma/",
       "image": "assets/photos/headshots/Tjardo_Postma.jpg",
-      "projects": []
+      "projects": [
+                {
+          "name": "TETRO",
+          "url": "https://www.tetro-ocd.nl/"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Eva Oostra",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/eva-oostra/",
       "image": "assets/photos/headshots/Eva_Oostra.jpg",
-      "projects": []
+      "projects": [
+                {
+          "name": "TBIDE",
+          "url": "https://www.t-bide.nl/"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Nadža Džinalija",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/nadza-dzinalija/",
       "image": "assets/photos/headshots/Nadza_Dzinalija.jpg",
-      "projects": []
+      "projects": [ {
+          "name": "ENIGMA-OCD",
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Eva van Heese",
       "website": "https://pure.amsterdamumc.nl/en/persons/eva-van-heese/",
       "image": "assets/photos/headshots/Eva_vanHeese.jpg",
-      "projects": []
+      "projects": [ 
+        {
+          "name": "NICHY",
+          "url": "https://nichy-consortium.github.io/nichy/"
+        }, 
+         {
+          "name": "ENIGMA-PD",
+          "url": "https://enigma-infra.github.io/ENIGMA-PD"
+        }, 
+         {
+          "name": "ProPark",
+          "url": "https://proparkinson.nl/"
+        }, 
+         {
+          "name": "REMIND"
+        }, 
+         {
+          "name": "Hypersomnia-MRI"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Coen Coomans",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/coen-coomans/",
       "image": "assets/photos/headshots/Coen_Coomans.jpg",
       "projects": []
     },
     {
       "role": "PhD students",
       "name": "Hidde Woerdman",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/hidde-woerdman/",
       "image": "assets/photos/headshots/Hidde_Woerdman.jpg",
-      "projects": []
+      "projects": [
+          {
+          "name": "TMSLA",
+          "url": "https://www.tmsla.nl/"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Ploon de Potter",
       "website": "https://pure.amsterdamumc.nl/en/persons/ploon-de-potter/",
       "image": "assets/photos/headshots/Ploon_dePotter.png",
-      "projects": []
+      "projects": [
+        {
+          "name": "SLEEP-DEEP"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Lilian Bot",
       "website": "https://pure.amsterdamumc.nl/en/persons/lilian-bot/",
       "image": "assets/photos/headshots/Lilian_Bot.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "Laborit",
+          "url": "https://laborit-studie.nl"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Celine Dietz",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/c%C3%A9line-dietz/",
       "image": "assets/photos/headshots/Celine_Dietz.jpg",
-      "projects": []
+      "projects": [ 
+        {
+          "name": "MALIBU"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Keetje Voogd",
-      "website": "",
+      "website": "https://pure.amsterdamumc.nl/en/persons/keetje-voogd/",
       "image": "assets/photos/headshots/Keetje_Voogd.jpg",
-      "projects": []
+      "projects": [ 
+        {
+          "name": "NICHY",
+          "url": "https://nichy-consortium.github.io/nichy/"
+        }, 
+        {
+          "name": "Hypersomnia-MRI"
+        }, 
+        {
+          "name": "Covaid"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Leonardo Nacci",
       "website": "",
       "image": "assets/photos/headshots/Leonardo_Nacci.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "BITSO"
+        },
+         {
+          "name": "MEGA-OCD"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Wianne Schipper",
       "website": "",
       "image": "assets/photos/headshots/Wianne_Leonore_Schipper.jpg",
-      "projects": []
+      "projects": [
+                 {
+          "name": "TETRO",
+          "url": "https://www.tetro-ocd.nl/"
+        }, 
+         {
+          "name": "BITSO"
+        }
+      ]
     },
     {
       "role": "PhD students",
       "name": "Chahd El Fassi",
       "website": "",
       "image": "assets/photos/headshots/Chahd_ElFassi.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        }
+      ]
     },
     {
       "role": "Research assistants",
       "name": "Dorottya Iványi",
       "website": "",
       "image": "assets/photos/headshots/Dorottya_Fanni_Ivanyi.jpg",
-      "projects": []
+      "projects": [
+        {
+          "name": "SLEEP-DEEP"
+        }
+      ]
     },
     {
       "role": "Research assistants",
-      "name": "Roos v Oeveren",
+      "name": "Roos van Oeveren",
       "website": "",
-      "image": "assets/photos/headshots/Roos_vOeveren.jpg",
-      "projects": []
+      "image": "assets/photos/headshots/Roos_vanOeveren.jpg",
+      "projects": [
+         {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        }, 
+          {
+          "name": "REMIND"
+        }
+      ]
     },
     {
       "role": "Research assistants",
@@ -252,35 +496,65 @@
       "name": "Jiska van Wijk",
       "website": "",
       "image": "assets/photos/headshots/Jiska_vanWijk.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        }
+      ]
     },
     {
       "role": "Research assistants",
       "name": "Imke Molenaar",
       "website": "",
       "image": "assets/photos/headshots/Imke_Molenaar.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        }
+      ]
     },
     {
       "role": "Research assistants",
       "name": "Eva de Jong",
       "website": "",
       "image": "assets/photos/headshots/Eva_deJong.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "NESCIO-PD",
+          "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        } 
+      ]
     },
     {
       "role": "Research assistants",
       "name": "Rustam Hossain",
       "website": "",
       "image": "assets/photos/headshots/Rustam_Hossain.png",
-      "projects": []
+      "projects": [
+        {
+          "name": "BITSO"
+        },
+        {
+          "name": "REMIND"
+        },
+         {
+          "name": "MEGA-OCD"
+        }
+      ]
     },
     {
       "role": "Research assistants",
       "name": "Eloise van Alphen",
       "website": "",
       "image": "assets/photos/headshots/Eloise_vanAlphen.jpg",
-      "projects": []
+      "projects": [
+         {
+          "name": "ENIGMA-PD",
+          "url": "https://enigma-infra.github.io/ENIGMA-PD/"
+        } 
+      ]
     }
   ]
 }
