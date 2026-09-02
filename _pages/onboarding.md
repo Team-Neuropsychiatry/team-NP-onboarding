@@ -72,6 +72,8 @@ Complete your required **e-learnings** and **MijnHR Bekwaamheden (Mandatory Skil
 
 See the instructions provided by the secretariat in your introductory email.
 
+Ask your supervisor if you need to complete a GCP-light (Good Clinical Practice) course. More information can be found here: [Amsterdam UMC SharePoint](https://amsterdamumc.sharepoint.com/sites/CMC1/SitePages/BROK_WMO-GCP%20cursussen.aspx).
+
 ### Server introduction
 
 If you will be working on the Helios server, ask your daily supervisor to give you a short introduction to the server.
