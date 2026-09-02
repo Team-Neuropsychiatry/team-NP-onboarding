@@ -340,7 +340,12 @@
       "name": "Coen Coomans",
       "website": "https://pure.amsterdamumc.nl/en/persons/coen-coomans/",
       "image": "assets/photos/headshots/Coen_pasfoto.jpg",
-      "projects": []
+      "projects": [
+        {
+          "name": "D-DOTT",
+          "url": "https://ddott.nl/"
+        }
+      ]
     },
     {
       "role": "PhD students",
