@@ -1,0 +1,98 @@
+<style>
+  .news-container {
+    margin: 30px 0;
+  }
+  .news-card {
+    display: flex;
+    align-items: stretch;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-bottom: 25px;
+    min-height: 180px;
+  }
+  .news-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
+  .news-image-wrap {
+    flex: 0 0 260px;
+    background: #f4f4f4;
+  }
+  .news-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .news-content {
+    flex: 1;
+    padding: 20px 24px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .news-date {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+  }
+  .news-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  .news-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .news-text {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+  }
+  .news-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #667eea;
+    text-decoration: none;
+  }
+  .news-link:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 700px) {
+    .news-card {
+      flex-direction: column;
+    }
+    .news-image-wrap {
+      flex: 0 0 200px;
+    }
+  }
+</style>
+
+<div class="news-container">
+  {% assign sorted_news = site.data.news-data.news | sort: "date" | reverse %}
+  {% for item in sorted_news %}
+    <div class="news-card">
+      <div class="news-image-wrap">
+        <img src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}" class="news-image" onerror="this.style.display='none'">
+      </div>
+      <div class="news-content">
+        <div class="news-date">{{ item.date | date: "%d %B %Y" }}</div>
+        <div class="news-title">{{ item.title }}</div>
+        <div class="news-text">{{ item.text }}</div>
+        {% if item.link %}
+          <a href="{{ item.link }}" class="news-link" target="_blank" rel="noopener noreferrer">Read more about the project &rarr;</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
