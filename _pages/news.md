@@ -1,9 +1,7 @@
 ---
-title: "News"
-layout: single
 permalink: /news/
+title: "News & Updates"
+layout: single
 ---
 
-## Updates from team Neuropsychiatry
-
-This page is still under construction. 
+{% include news-cards.html %}
