@@ -33,6 +33,10 @@
         {
           "name": "TMSLA",
           "url": "https://www.tmsla.nl/"
+        },        
+        {
+          "name": "MALIBU",
+           "url": "www.hersenstimulatie-longcovid.nl"
         },
         {
           "name": "REMIND" 
@@ -42,6 +46,12 @@
         },
         {
           "name": "MEGA-OCD"
+        },
+        {
+          "name": "Global OCD"
+        },
+        {
+          "name": "TMS-EEG"
         }
       ]
     },
@@ -76,6 +86,13 @@
         {
           "name": "TMSLA",
           "url": "https://www.tmsla.nl/"
+        },
+        {
+          "name": "MALIBU",
+           "url": "www.hersenstimulatie-longcovid.nl"
+        },
+        {
+          "name": "TMS-EEG"
         }
       ]
     },
@@ -99,6 +116,9 @@
         },
         {
           "name": "MEGA-OCD"
+        },
+        {
+          "name": "Global OCD"
         }
       ]
     },
@@ -126,6 +146,9 @@
         {
           "name": "Laborit",
           "url": "https://laborit-studie.nl"
+        },
+        {
+          "name": "TMS-EEG"
         }
       ]
     },
@@ -134,7 +157,12 @@
       "name": "Sander Verfaillie",
       "website": "https://pure.amsterdamumc.nl/en/persons/sander-verfaillie/",
       "image": "assets/photos/headshots/Sander_Verfaillie.jpg",
-      "projects": []
+      "projects": [
+        {
+          "name": "MALIBU",
+           "url": "www.hersenstimulatie-longcovid.nl"
+        }
+      ]
     },
     {
       "role": "Seniors",
@@ -186,6 +214,13 @@
         {
           "name": "ProPark",
           "url": "https://proparkinson.nl/"
+        },
+        {
+          "name": "NPC",
+          "url": "https://www.parkinson.nl/over-onderzoek/over-onderzoek-naar-parkinson/het-nederlands-parkinson-cohort"
+        },
+        {
+          "name": "TMS-EEG"
         }
       ]
     },
@@ -211,6 +246,9 @@
         },
         {
           "name": "MEGA-OCD"
+        },
+        {
+          "name": "Global OCD"
         }
       ]
     },
@@ -241,6 +279,9 @@
         },
         {
           "name": "MEGA-OCD"
+        },
+        {
+          "name": "Global OCD"
         }
       ]
     },
@@ -295,6 +336,9 @@
         {
           "name": "TBIDE",
           "url": "https://www.t-bide.nl/"
+        },
+        {
+          "name": "TMS-EEG"
         }
       ]
     },
@@ -390,7 +434,8 @@
       "image": "assets/photos/headshots/Céline_Dietz.jpg",
       "projects": [
         {
-          "name": "MALIBU"
+          "name": "MALIBU",
+           "url": "www.hersenstimulatie-longcovid.nl"
         }
       ]
     },
@@ -423,6 +468,9 @@
         },
         {
           "name": "MEGA-OCD"
+        },
+        {
+          "name": "Global OCD"
         }
       ]
     },
@@ -438,6 +486,9 @@
         },
         {
           "name": "BITSO"
+        },
+        {
+          "name": "TMS-EEG"
         }
       ]
     },
@@ -484,7 +535,15 @@
       "name": "Bruno Moses",
       "website": "https://pure.amsterdamumc.nl/en/persons/bruno-moses/",
       "image": "assets/photos/headshots/Bruno_Moses.jpg",
-      "projects": []
+      "projects": [
+        {
+          "name": "ENIGMA-OCD",
+          "url": "https://enigma.ini.usc.edu/ongoing/enigma-ocd-working-group/"
+        },
+        {
+          "name": "MEGA-OCD"
+        }
+      ]
     },
     {
       "role": "Research assistants",
@@ -550,6 +609,9 @@
         },
         {
           "name": "MEGA-OCD"
+        },
+        {
+          "name": "Global OCD"
         }
       ]
     },
