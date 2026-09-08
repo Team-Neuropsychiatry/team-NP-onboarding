@@ -198,8 +198,15 @@
       "role": "Seniors",
       "name": "Anders Lillevik Thorsen",
       "website": "https://pure.amsterdamumc.nl/en/persons/anders-thorsen/",
-      "image": "assets/photos/headshots/Anders_LillevikThorsen.jpg",
-      "projects": []
+      "image": "assets/photos/headshots/Anders_Thorsen.jpg",
+      "projects": [
+        {
+          "name": "MEGA-OCD"
+        },
+        {
+          "name": "Global OCD"
+        }
+      ]
     },
     {
       "role": "Postdocs",
