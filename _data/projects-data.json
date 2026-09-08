@@ -183,6 +183,22 @@
       ]
     },
     {
+      "title": "NPC",
+      "logo": "assets/logos/npc_logo.png",
+      "website": "https://www.parkinson.nl/over-onderzoek/over-onderzoek-naar-parkinson/het-nederlands-parkinson-cohort",
+      "pis": "Wilma van de Berg",
+      "leads": "Emile d'Angremont",
+      "members": "Floor van den Dolder",
+      "keywords": [
+        "Parkinson's disease",
+        "consortium",
+        "MRI",
+        "biomaterials",
+        "wearables",
+        "big data"
+      ]
+    },
+    {
       "title": "ProPark",
       "logo": "assets/logos/propark_logo.png",
       "website": "https://proparkinson.nl/",
