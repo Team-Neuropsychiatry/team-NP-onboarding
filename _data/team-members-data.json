@@ -54,7 +54,7 @@
           "name": "TMS-EEG"
         }
       ]
-    },
+    },   
     {
       "role": "Co-leads",
       "name": "Ysbrand van der Werf",
@@ -599,6 +599,18 @@
         {
           "name": "NESCIO-PD",
           "url": "https://psychiatryamsterdam.nl/projecten/nescio-pd-2/"
+        },
+        {
+          "name": "TMSLA",
+          "url": "https://www.tmsla.nl/"
+        },      
+        {
+          "name": "TETRO",
+          "url": "https://www.tetro-ocd.nl/"
+        },
+        {
+          "name": "MALIBU",
+           "url": "www.hersenstimulatie-longcovid.nl"
         }
       ]
     },
